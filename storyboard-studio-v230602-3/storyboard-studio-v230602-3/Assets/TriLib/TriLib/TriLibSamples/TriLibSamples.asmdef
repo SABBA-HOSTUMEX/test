@@ -1,0 +1,16 @@
+{
+    "name": "TriLibSamples.Scripts",
+    "references": [
+        "GUID:3df19a166d643d642bf241badcf4459f",
+        "GUID:68c1c73845c111f42a17a3a7c8053474"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

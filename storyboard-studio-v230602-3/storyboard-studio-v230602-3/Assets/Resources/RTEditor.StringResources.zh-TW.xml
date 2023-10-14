@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Resources>
+		<!-- Most of the identifiers in "Menu" sections are not in ID_RTEditor_... format for backward compatibility -->
+		<!-- Menu File -->
+		<StringResource id="ID_RTEditor_MenuFile_Button" value="情境"/>
+		<StringResource id="MenuFile" value="情境"/>
+		<StringResource id="New Scene" value="建立情境"/>
+		<StringResource id="Save Scene" value="儲存情境"/>
+		<StringResource id="Save Scene As..." value="另存情境..."/>
+		<StringResource id="Import Assets" value="載入素材到專案"/>
+		<StringResource id="Import From File" value="檔案匯入"/>
+		<StringResource id="Manage Projects" value="管理專案"/>
+		<StringResource id="Close" value="關閉"/>
+		
+		<!-- Menu Edit -->
+		<StringResource id="ID_RTEditor_MenuEdit_Button" value="編輯"/>
+		<StringResource id="MenuEdit" value="編輯"/>
+		<StringResource id="Undo" value="返回"/>
+		<StringResource id="Redo" value="重做"/>
+		<StringResource id="Duplicate" value="複製"/>
+		<StringResource id="Delete" value="刪除"/>
+		<StringResource id="Play" value="預覽"/>
+		<StringResource id="Stop" value="停止"/>
+		<StringResource id="Settings" value="設定..."/>
+		
+		<!-- Menu GameObject -->
+		<StringResource id="ID_RTEditor_MenuGameObject_Button" value="基本物件"/>
+		<StringResource id="MenuGameObject" value="基本物件"/>
+		<StringResource id="Create Empty" value="建立空物件"/>
+		<StringResource id="Create Empty Child" value="建立子物件"/>
+		<StringResource id="3D Object" value="3D 物件"/>
+		<StringResource id="Cube" value="方體"/>
+		<StringResource id="Sphere" value="圓球體"/>
+		<StringResource id="Capsule" value="膠囊"/>
+		<StringResource id="Cylinder" value="圓柱"/>
+		<StringResource id="Plane" value="平面"/>
+		<StringResource id="Quad" value="四邊形"/>
+		<StringResource id="Light" value="燈光"/>
+		<StringResource id="Directional" value="方向燈"/>
+		<StringResource id="Point" value="點光"/>
+		<StringResource id="Spot" value="投射燈"/>
+		<StringResource id="Camera" value="攝影機"/>
+		
+		<!-- Known Game Objects -->
+		<StringResource id="ID_RTEditor_KGO_Empty" value="空"/>
+		<StringResource id="ID_RTEditor_KGO_UI" value="UI"/>
+		<StringResource id="ID_RTEditor_KGO_Canvas" value="畫布"/>
+		<StringResource id="ID_RTEditor_KGO_Image" value="圖像"/>
+		<StringResource id="ID_RTEditor_KGO_Button" value="按鈕"/>
+		<StringResource id="ID_RTEditor_KGO_Text" value="文字"/>
+		<StringResource id="ID_RTEditor_KGO_Toggle" value="切換"/>
+		<StringResource id="ID_RTEditor_KGO_Text_TMP" value="Text-TextMeshPro"/>
+
+		
+		<!-- Menu Window -->
+		<StringResource id="ID_RTEditor_MenuWindow_Button" value="視窗"/>
+		<StringResource id="Window" value="視窗"/>
+		<StringResource id="MenuWindow" value="選單視窗"/>
+		<StringResource id="Layouts" value="佈局"/>
+		<StringResource id="Default" value="預設"/>
+		<StringResource id="General" value="一般"/>
+		<StringResource id="Scene" value="場景"/>
+		<StringResource id="Game" value="預覽介面"/>
+		<StringResource id="Inspector" value="屬性"/>
+		<StringResource id="Hierarchy" value="層階"/>
+		<StringResource id="Project" value="專案"/>
+		<StringResource id="Console" value="主控台"/>
+		<StringResource id="Animation" value="動畫"/>
+		
+		<!-- Menu Help -->
+		<StringResource id="ID_RTEditor_MenuHelp_Button" value="幫助"/>
+		<StringResource id="MenuHelp" value="幫助"/>
+		<StringResource id="About RTE" value="關於編輯器"/>
+		
+		<!-- Window Manager -->
+		<StringResource id="ID_RTEditor_WM_Header_Scene" value="場景"/>
+		<StringResource id="ID_RTEditor_WM_Header_Game" value="預覽"/>
+		<StringResource id="ID_RTEditor_WM_Header_Hierarchy" value="層階結構"/>
+		<StringResource id="ID_RTEditor_WM_Header_Inspector" value="屬性"/>
+		<StringResource id="ID_RTEditor_WM_Header_Project" value="專案"/>
+		<StringResource id="ID_RTEditor_WM_Header_Console" value="主控台"/>
+		<StringResource id="ID_RTEditor_WM_Header_Animation" value="動畫"/>
+		<StringResource id="ID_RTEditor_WM_Header_SaveScene" value="另存場景為"/>
+		<StringResource id="ID_RTEditor_WM_Header_SaveAsset" value="另存素材為"/>
+		<StringResource id="ID_RTEditor_WM_Header_OpenProject" value="管理專案"/>
+		<StringResource id="ID_RTEditor_WM_Header_SelectAssetLibrary" value="選擇素材庫"/>
+		<StringResource id="ID_RTEditor_WM_Header_ImportAssets" value="選擇素材"/>
+		<StringResource id="ID_RTEditor_WM_Header_About" value="關於"/>
+		<StringResource id="ID_RTEditor_WM_Header_SelectObject" value="選擇物件"/>
+		<StringResource id="ID_RTEditor_WM_Header_SelectColor" value="選擇顏色"/>
+		<StringResource id="ID_RTEditor_WM_Header_SelectAnimationProperties" value="選擇屬性"/>
+            <StringResource id="ID_RTEditor_WM_Header_ImportFile" value="導入文件"/>
+            <StringResource id="ID_RTEditor_WM_Header_Settings" value="設置"/>
+            <StringResource id="ID_RTEditor_WM_Header_SaveFile" value="保存文件"/>
+            <StringResource id="ID_RTEditor_WM_Header_OpenFile" value="打開文件"/>
+            <StringResource id="ID_RTEditor_WM_Dialog_OK" value="確定"/>
+            <StringResource id="ID_RTEditor_WM_Dialog_Cancel" value="取消"/>
+	
+		<!-- Tools Panel -->
+
+            <StringResource id="ID_RTEditor_ToolsPanel_Play" value="播放"/>
+            <StringResource id="ID_RTEditor_ToolsPanel_Undo" value="撤消"/>
+            <StringResource id="ID_RTEditor_ToolsPanel_Redo" value="重做"/>
+            <StringResource id="ID_RTEditor_ToolsPanel_HandTool" value="手形工具"/>
+            <StringResource id="ID_RTEditor_ToolsPanel_MoveTool" value="移動工具"/>
+            <StringResource id="ID_RTEditor_ToolsPanel_RotateTool" value="旋轉工具"/>
+            <StringResource id="ID_RTEditor_ToolsPanel_ScaleTool" value="縮放工具"/>
+            <StringResource id="ID_RTEditor_ToolsPanel_RectTool" value="矩形工具"/>
+            <StringResource id="ID_RTEditor_ToolsPanel_InGlobalRotation" value="工具手柄在全局旋轉中"/>
+            <StringResource id="ID_RTEditor_ToolsPanel_InObjectsRotation" value="工具手柄在活動對象的旋轉中"/>
+            <StringResource id="ID_RTEditor_ToolsPanel_AtTheCenter" value="放置工具手柄在選擇的中心。"/>
+            <StringResource id="ID_RTEditor_ToolsPanel_AtThePivotPoint" value="工具手柄放置在活動對象的軸心點處。"/>
+		
+		<!-- Component Descriptors -->
+		
+<StringResource id="ID_RTEditor_CD_AudioListener" value="音頻監聽器"/>
+            <StringResource id="ID_RTEditor_CD_AudioSource" value="音頻源"/>
+            <StringResource id="ID_RTEditor_CD_AudioSource_PlayOnAwake" value="播放時執行"/>
+            <StringResource id="ID_RTEditor_CD_AudioSource_Loop" value="循環"/>
+            <StringResource id="ID_RTEditor_CD_AudioSource_Clip" value="剪輯"/>
+            <StringResource id="ID_RTEditor_CD_AudioSource_Volume" value="音量"/>
+            <StringResource id="ID_RTEditor_CD_BoxCollider" value="盒子碰撞器"/>
+            <StringResource id="ID_RTEditor_CD_BoxCollider_IsTrigger" value="感應區"/>
+            <StringResource id="ID_RTEditor_CD_BoxCollider_Material" value="材質"/>
+            <StringResource id="ID_RTEditor_CD_BoxCollider_Center" value="中心"/>
+            <StringResource id="ID_RTEditor_CD_BoxCollider_Size" value="尺寸"/>
+            <StringResource id="ID_RTEditor_CD_Camera" value="相機"/>
+            <StringResource id="ID_RTEditor_CD_Camera_Projection" value="投影"/>
+            <StringResource id="ID_RTEditor_CD_Camera_Fov" value="視野"/>
+            <StringResource id="ID_RTEditor_CD_Camera_Size" value="尺寸"/>
+            <StringResource id="ID_RTEditor_CD_Camera_CullingMask" value="剔除遮罩"/>
+		
+		
+		<StringResource id="ID_RTEditor_CD_CapsuleCollider" value="膠囊碰撞器"/>
+		<StringResource id="ID_RTEditor_CD_CapsuleCollider_IsTrigger" value="感應區"/>
+		<StringResource id="ID_RTEditor_CD_CapsuleCollider_Material" value="材質"/>
+		<StringResource id="ID_RTEditor_CD_CapsuleCollider_Center" value="中心點"/>
+		<StringResource id="ID_RTEditor_CD_CapsuleCollider_Radius" value="半徑"/>
+		<StringResource id="ID_RTEditor_CD_CapsuleCollider_Height" value="高度"/>
+		<StringResource id="ID_RTEditor_CD_CapsuleCollider_Direction" value="方向"/>
+		<StringResource id="ID_RTEditor_CD_FixedJoint" value="固定關節"/>
+		<StringResource id="ID_RTEditor_CD_FixedJoint_ConnectedBody" value="連接體"/>
+		<StringResource id="ID_RTEditor_CD_FixedJoint_BreakForce" value="斷裂力"/>
+		<StringResource id="ID_RTEditor_CD_FixedJoint_BreakTorque" value="斷裂扭矩"/>
+		<StringResource id="ID_RTEditor_CD_FixedJoint_EnableCollision" value="啟用碰撞"/>
+		<StringResource id="ID_RTEditor_CD_FixedJoint_EnablePerprocessing" value="啟用預處理"/>
+		
+		<StringResource id="ID_RTEditor_CD_HingeJoint" value="鉸鏈接頭"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_ConnectedBody" value="連接體"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_Anchor" value="錨"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_Axis" value="軸"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_AutoConfigure" value="自動配置連接錨"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_ConnectedAnchor" value="連接錨"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_UseSpring" value="使用彈簧"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_Spring" value="彈簧"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_UseMotor" value="使用電機"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_Motor" value="電機"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_UseLimits" value="使用限制"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_Limits" value="限制"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_Min" value="最小"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_Max" value="最大"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_Bounciness" value="彈性"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_BounceMinVelocity" value="彈跳最小速度"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_ContactDistance" value="接觸距離"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_BreakForce" value="破斷力"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_BreakTorque" value="斷開扭矩"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_BreakEnableCollision" value="啟用碰撞"/>
+            <StringResource id="ID_RTEditor_CD_HingeJoint_BreakEnablePreprocessing" value="啟用預處理"/>
+		
+		<StringResource id="ID_RTEditor_CD_Light" value="燈光"/>
+            <StringResource id="ID_RTEditor_CD_Light_Enabled" value="啟用"/>
+            <StringResource id="ID_RTEditor_CD_Light_Type" value="類型"/>
+            <StringResource id="ID_RTEditor_CD_Light_Range" value="範圍"/>
+            <StringResource id="ID_RTEditor_CD_Light_SpotAngle" value="光斑角度"/>
+            <StringResource id="ID_RTEditor_CD_Light_Color" value="顏色"/>
+            <StringResource id="ID_RTEditor_CD_Light_Intensity" value="強度"/>
+            <StringResource id="ID_RTEditor_CD_Light_BounceIntensity" value="反射強度"/>
+            <StringResource id="ID_RTEditor_CD_Light_ShadowType" value="陰影類型"/>
+            <StringResource id="ID_RTEditor_CD_Light_Strength" value="陰影強度"/>
+            <StringResource id="ID_RTEditor_CD_Light_Resolution" value="分辨率"/>
+            <StringResource id="ID_RTEditor_CD_Light_Bias" value="偏置"/>
+            <StringResource id="ID_RTEditor_CD_Light_NormalBias" value="法線偏置"/>
+            <StringResource id="ID_RTEditor_CD_Light_ShadowNearPlane" value="陰影近平面"/>
+            <StringResource id="ID_RTEditor_CD_Light_Cookie" value="Cookie"/>
+            <StringResource id="ID_RTEditor_CD_Light_CookieSize" value="Cookie大小"/>
+            <StringResource id="ID_RTEditor_CD_Light_Flare" value="光暈"/>
+            <StringResource id="ID_RTEditor_CD_Light_RenderMode" value="渲染模式"/>
+
+            <StringResource id="ID_RTEditor_CD_MeshCollider" value="網格碰撞"/>
+            <StringResource id="ID_RTEditor_CD_MeshCollider_Convex" value="凸面"/>
+            <StringResource id="ID_RTEditor_CD_MeshCollider_IsTrigger" value="是觸發器"/>
+            <StringResource id="ID_RTEditor_CD_MeshCollider_Material" value="材質"/>
+            <StringResource id="ID_RTEditor_CD_MeshCollider_Mesh" value="網格"/>
+            <StringResource id="ID_RTEditor_CD_MeshFilter" value="網格過濾器"/>
+            <StringResource id="ID_RTEditor_CD_MeshFilter_Mesh" value="網格"/>
+            <StringResource id="ID_RTEditor_CD_MeshRenderer" value="材質設定"/>
+            <StringResource id="ID_RTEditor_CD_MeshRenderer_CastShadows" value="投射陰影"/>
+            <StringResource id="ID_RTEditor_CD_MeshRenderer_ReceiveShadows" value="接收陰影"/>
+            <StringResource id="ID_RTEditor_CD_MeshRenderer_Materials" value="材質"/>
+            <StringResource id="ID_RTEditor_CD_MeshRenderer_LightProbes" value="光照探針"/>
+            <StringResource id="ID_RTEditor_CD_MeshRenderer_ReflectionProbes" value="反射探針"/>
+            <StringResource id="ID_RTEditor_CD_MeshRenderer_AnchorOverride" value="錨點覆蓋"/>
+
+            <StringResource id="ID_RTEditor_CD_RectTransform" value="矩形變換"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_Position" value="位置"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_PosX" value="Pos X"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_PosY" value="Pos Y"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_PosZ" value="Pos Z"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_Width" value="寬度"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_Height" value="高度"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_Left" value="左"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_Right" value="右"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_Top" value="頂部"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_Bottom" value="底部"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_AnchorMin" value="最小錨點"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_AnchorMax" value="最大錨點"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_Pivot" value="樞軸"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_Rotation" value="旋轉"/>
+            <StringResource id="ID_RTEditor_CD_RectTransform_Scale" value="縮放"/>
+
+            <StringResource id="ID_RTEditor_AnchorPreset_Left" value="左"/>
+            <StringResource id="ID_RTEditor_AnchorPreset_Center" value="中心"/>
+            <StringResource id="ID_RTEditor_AnchorPreset_Right" value="右"/>
+            <StringResource id="ID_RTEditor_AnchorPreset_Top" value="頂部"/>
+            <StringResource id="ID_RTEditor_AnchorPreset_Middle" value="中"/>
+            <StringResource id="ID_RTEditor_AnchorPreset_Bottom" value="底部"/>
+            <StringResource id="ID_RTEditor_AnchorPreset_Stretch" value="拉伸"/>
+            <StringResource id="ID_RTEditor_AnchorPreset_Custom" value="自定義"/>
+            <StringResource id="ID_RTEditor_AnchorPreset_AnchorPresets" value="錨預設"/>
+            <StringResource id="ID_RTEditor_AnchorPreset_SetPivot" value="Shift：還設置樞軸"/>
+            <StringResource id="ID_RTEditor_AnchorPreset_SetPosition" value="Alt ：還設置位置"/>
+   
+		<StringResource id="ID_RTEditor_CD_Rigidbody" value="剛體"/>
+            <StringResource id="ID_RTEditor_CD_Rigidbody_Mass" value="質量"/>
+            <StringResource id="ID_RTEditor_CD_Rigidbody_Drag" value="拖動"/>
+            <StringResource id="ID_RTEditor_CD_Rigidbody_AngularDrag" value="角拖動"/>
+            <StringResource id="ID_RTEditor_CD_Rigidbody_UseGravity" value="使用重力"/>
+            <StringResource id="ID_RTEditor_CD_Rigidbody_IsKinematic" value="是運動學"/>
+            <StringResource id="ID_RTEditor_CD_Rigidbody_Interpolation" value="插值"/>
+            <StringResource id="ID_RTEditor_CD_Rigidbody_CollisionDetection" value="碰撞檢測"/>
+
+            <StringResource id="ID_RTEditor_CD_RuntimeAnimation" value="運行時動畫"/>
+            <StringResource id="ID_RTEditor_CD_RuntimeAnimation_PlayOnAwake" value="喚醒時播放"/>
+            <StringResource id="ID_RTEditor_CD_RuntimeAnimation_Loop" value="循環"/>
+            <StringResource id="ID_RTEditor_CD_RuntimeAnimation_Clips" value="剪輯"/>
+
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer" value="蒙皮網格渲染器"/>
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer_CastShadows" value="投射陰影"/>
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer_ReceiveShadows" value="接收陰影"/>
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer_Materials" value="材質"/>
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer_LightProbes" value="光照探針"/>
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer_ReflectionProbes" value="反射探針"/>
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer_AnchorOverride" value="錨覆蓋"/>
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer_Quality" value="質量"/>
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer_UpdateWhenOffscreen" value="離屏時更新"/>
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer_SkinnedMotionVectors" value="蒙皮運動矢量"/>
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer_Mesh" value="網格"/>
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer_RootBone" value="根骨骼"/>
+            <StringResource id="ID_RTEditor_CD_SkinnedMeshRenderer_Bounds" value="邊界"/>
+
+            <StringResource id="ID_RTEditor_CD_SphereCollider" value="球型碰撞體"/>
+            <StringResource id="ID_RTEditor_CD_SphereCollider_IsTrigger" value="感應區"/>
+            <StringResource id="ID_RTEditor_CD_SphereCollider_Material" value="材質"/>
+            <StringResource id="ID_RTEditor_CD_SphereCollider_Center" value="中間"/>
+            <StringResource id="ID_RTEditor_CD_SphereCollider_Radius" value="半徑"/>
+
+            <StringResource id="ID_RTEditor_CD_SpringJoint" value="彈簧接頭"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_ConnectedBody" value="連接體"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_Anchor" value="錨"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_AutoConfigConnectedAnchor" value="自動配置連接錨"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_ConnectAnchor" value="連接錨"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_Spring" value="彈簧"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_Damper" value="阻尼器"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_MinDistance" value="最少距離"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_MaxDistance" value="最大距離"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_Tolerance" value="公差"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_BreakForce" value="斷裂力"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_BreakTorque" value="斷開扭矩"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_EnableCollision" value="啟用碰撞"/>
+            <StringResource id="ID_RTEditor_CD_SpringJoint_EnablePreprocessing" value="啟用預處理"/>
+
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_RenderingMode" value="渲染模式"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_Albedo" value="反照率"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_AlbedoColor" value="反照率顏色"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_AlphaCutoff" value="AlphaCutoff"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_Metallic" value="金屬色"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_Smoothness" value="平滑度"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_NormalMap" value="法線貼圖"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_NormalMapScale" value="法線貼圖比例"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_HeightMap" value="高度貼圖"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_HeightMapScale" value="高度貼圖比例"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_OcclusionMap" value="遮擋貼圖"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_OcclusionStrength" value="遮擋強度"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_EmissionMap" value="發射貼圖"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_EmissionColor" value="發射顏色"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_DetailMask" value="細節遮罩"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_DetailAlbedoMap" value="細節反照率貼圖"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_DetailNormalMap" value="細節法線 貼圖"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_DetailScale" value="細節比例"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_Tiling" value="平鋪"/>
+            <StringResource id="ID_RTEditor_CD_StandardMaterial_Offset" value="偏移"/>
+            <StringResource id="ID_RTEditor_CD_Transform" value="變換"/>
+            <StringResource id="ID_RTEditor_CD_Transform_Position" value="位置"/>
+            <StringResource id="ID_RTEditor_CD_Transform_Rotation" value="旋轉"/>
+            <StringResource id="ID_RTEditor_CD_Transform_Scale" value="縮放"/>
+		
+		<StringResource id="ID_RTEditor_CD_Terrain" value="地形"/>
+            <StringResource id="ID_RTEditor_CD_Text" value="文本"/>
+            <StringResource id="ID_RTEditor_CD_Text_Character" value="字符"/>
+            <StringResource id="ID_RTEditor_CD_Text_Font" value="字體"/>
+            <StringResource id="ID_RTEditor_CD_Text_FontStyle" value="字體樣式"/>
+            <StringResource id="ID_RTEditor_CD_Text_FontSize" value="字體大小"/>
+            <StringResource id="ID_RTEditor_CD_Text_LineSpacing" value="行距"/>
+            <StringResource id="ID_RTEditor_CD_Text_RichText" value="富文本"/>
+            <StringResource id="ID_RTEditor_CD_Text_Paragraph" value="段落"/>
+            <StringResource id="ID_RTEditor_CD_Text_Alignment" value="對齊"/>
+            <StringResource id="ID_RTEditor_CD_Text_AlignByGeometry" value="按幾何對齊"/>
+            <StringResource id="ID_RTEditor_CD_Text_HorizontalOverflow" value="水平溢出"/>
+            <StringResource id="ID_RTEditor_CD_Text_VerticalOverflow" value="垂直溢出"/>
+            <StringResource id="ID_RTEditor_CD_Text_BestFit" value="最佳擬合"/>
+            <StringResource id="ID_RTEditor_CD_Text_Rendering" value="渲染"/>
+            <StringResource id="ID_RTEditor_CD_Text_Color" value="顏色"/>
+            <StringResource id="ID_RTEditor_CD_Text_Material" value="材質"/>
+
+            <StringResource id="ID_RTEditor_CD_TextTMP" value="文本-Text Mesh Pro UGUI"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_Text" value="文本"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_MainSettings" value="主要設置"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_Font" value="字體"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_FontStyle" value="字體樣式"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_FontSize" value="字體大小"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_Color" value="顏色"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_CharSpacing" value="字符間距"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_WordSpacing" value="字間距"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_LineSpacing" value="行間距"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_ParagraphSpacing" value="段落間距"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_HorizontalAlignment" value="水平對齊"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_VerticalAlignment" value="垂直對齊"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_EnableWordWrapping" value="換行"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_Overflow" value="溢出"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_HorizontalMapping" value="水平映射"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_VerticalMapping" value="垂直映射"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_ExtraSettings" value="額外設置"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_Margins" value="邊距"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_IsScaleStatic" value="縮放靜態"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_RichText" value="富文本"/>
+            <StringResource id="ID_RTEditor_CD_TextTMP_ExtraPadding" value="額外填充"/>
+
+            <StringResource id="ID_RTEditor_CD_Selectable" value="可選"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_Interactable" value="可交互"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_TargetGraphic" value="目標圖形"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_Colors" value="顏色"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_NormalColor" value="正常顏色"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_HighlightedColor" value="高亮顏色"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_PressedColor" value="按下顏色"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_SelectedColor" value="選擇顏色"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_DisabledColor" value="禁用顏色"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_ColorMultiplier" value="顏色倍增器"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_FadeDuration" value="淡入淡出持續時間"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_Navigation" value="導航"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_Mode" value="模式"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_SelectOnUp" value="上選擇"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_SelectOnDown" value="下選擇"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_SelectOnLeft" value="左選擇"/>
+            <StringResource id="ID_RTEditor_CD_Selectable_SelectOnRight" value="右選擇"/>
+
+            <StringResource id="ID_RTEditor_CD_Button" value="按鈕"/>
+            <StringResource id="ID_RTEditor_CD_OnClick" value="點擊觸發"/>
+            <StringResource id="ID_RTEditor_CD_Toggle" value="切換"/>
+            <StringResource id="ID_RTEditor_CD_Toggle_IsOn" value="開啟"/>
+            <StringResource id="ID_RTEditor_CD_Toggle_ToggleTransition" value="切換過渡"/>
+            <StringResource id="ID_RTEditor_CD_Toggle_Graphic" value="圖形"/>
+            <StringResource id="ID_RTEditor_CD_Toggle_Group" value="組"/>
+            <StringResource id="ID_RTEditor_CD_Toggle_OnValueChanged" value="打開值已更改（布爾值）"/>
+            <StringResource id="ID_RTEditor_CD_ToggleGroup" value="切換組"/>
+            <StringResource id="ID_RTEditor_CD_ToggleGroup_AllowSwitchOff" value="允許關閉"/>
+
+            <StringResource id="ID_RTEditor_CD_Image" value="圖像"/>
+            <StringResource id="ID_RTEditor_CD_Image_SourceImage" value="源圖像"/>
+            <StringResource id="ID_RTEditor_CD_Image_Color" value="顏色"/>
+            <StringResource id="ID_RTEditor_CD_Image_Material" value="材質"/>
+            <StringResource id="ID_RTEditor_CD_Image_Maskable" value="可屏蔽"/>
+            <StringResource id="ID_RTEditor_CD_Image_ImageType" value="圖像類型"/>
+            <StringResource id="ID_RTEditor_CD_Image_FillCenter" value="填充中心"/>
+            <StringResource id="ID_RTEditor_CD_Image_PixelsPerUnitMultiplier" value="每單位像素乘數"/>
+            <StringResource id="ID_RTEditor_CD_Image_PreserveAspect" value="保留縱橫比"/>
+            <StringResource id="ID_RTEditor_CD_Image_SetNativeSize" value="設置原始大小"/>
+            <StringResource id="ID_RTEditor_CD_Image_FillMethod" value="填充方法"/>
+            <StringResource id="ID_RTEditor_CD_Image_FillOrigin" value="填充原點"/>
+            <StringResource id="ID_RTEditor_CD_Image_FillAmount" value="填充量"/>
+            <StringResource id="ID_RTEditor_CD_Image_Clockwise" value="順時針填充"/>
+            <StringResource id="ID_RTEditor_CD_Image_Bottom" value="底部"/>
+            <StringResource id="ID_RTEditor_CD_Image_Right" value="右側"/>
+            <StringResource id="ID_RTEditor_CD_Image_Top" value="頂部"/>
+            <StringResource id="ID_RTEditor_CD_Image_Left" value="左側"/>
+            <StringResource id="ID_RTEditor_CD_Image_BottomLeft" value="左下角"/>
+            <StringResource id="ID_RTEditor_CD_Image_TopLeft" value="左上角"/>
+            <StringResource id="ID_RTEditor_CD_Image_TopRight" value="右上角"/>
+            <StringResource id="ID_RTEditor_CD_Image_BottomRight" value="右下角"/>
+
+            <StringResource id="ID_RTEditor_CD_Canvas" value="畫布"/>
+            <StringResource id="ID_RTEditor_CD_Canvas_Camera" value="相機"/>
+            <StringResource id="ID_RTEditor_CD_LayoutElement" value="佈局元素"/>
+            <StringResource id="ID_RTEditor_CD_LayoutElement_IgnoreLayout" value="忽略佈局"/>
+            <StringResource id="ID_RTEditor_CD_LayoutElement_MinWidth" value="最小 寬度"/>
+            <StringResource id="ID_RTEditor_CD_LayoutElement_MinHeight" value="最小高度"/>
+            <StringResource id="ID_RTEditor_CD_LayoutElement_PreferredWidth" value="首選寬度"/>
+            <StringResource id="ID_RTEditor_CD_LayoutElement_PreferredHeight" value="首選高度"/>
+            <StringResource id="ID_RTEditor_CD_LayoutElement_FlexibleWidth" value="首選寬度"/>
+            <StringResource id="ID_RTEditor_CD_LayoutElement_FlexibleHeight" value="靈活高度"/>
+            <StringResource id="ID_RTEditor_CD_LayoutElement_LayoutPriority" value="佈局優先級"/>
+            <StringResource id="ID_RTEditor_CD_LayoutGroup_Padding" value="內邊距"/>
+            <StringResource id="ID_RTEditor_CD_LayoutGroup_Padding_Left" value="左"/>
+            <StringResource id="ID_RTEditor_CD_LayoutGroup_Padding_Right" value="右"/>
+            <StringResource id="ID_RTEditor_CD_LayoutGroup_Padding_Top" value="上"/>
+            <StringResource id="ID_RTEditor_CD_LayoutGroup_Padding_Bottom" value="下"/>
+
+            <StringResource id="ID_RTEditor_CD_GridLayoutGroup" value="網格佈局組"/>
+            <StringResource id="ID_RTEditor_CD_GridLayoutGroup_Spacing" value="間距"/>
+            <StringResource id="ID_RTEditor_CD_GridLayoutGroup_CellSize" value="單元格大小"/>
+            <StringResource id="ID_RTEditor_CD_GridLayoutGroup_StartCorner" value="起始角"/>
+            <StringResource id="ID_RTEditor_CD_GridLayoutGroup_StartAxis" value="起始軸"/>
+            <StringResource id="ID_RTEditor_CD_GridLayoutGroup_ChildAlignment" value="子對齊"/>
+            <StringResource id="ID_RTEditor_CD_GridLayoutGroup_Constraint" value="約束"/>
+
+            <StringResource id="ID_RTEditor_CD_HVLayoutGroup_Spacing" value="間距"/>
+            <StringResource id="ID_RTEditor_CD_HVLayoutGroup_ChildAlignment" value="子對齊"/>
+            <StringResource id="ID_RTEditor_CD_HVLayoutGroup_ReverseArrangement" value="反向排列"/>
+            <StringResource id="ID_RTEditor_CD_HVLayoutGroup_ControlChildWidth" value="控制子寬度"/>
+            <StringResource id="ID_RTEditor_CD_HVLayoutGroup_ControlChildHeight" value="控制子高度"/>
+            <StringResource id="ID_RTEditor_CD_HVLayoutGroup_UseChildScaleX" value="使用子縮放X"/>
+            <StringResource id="ID_RTEditor_CD_HVLayoutGroup_UseChildScaleY" value="使用子縮放Y"/>
+            <StringResource id="ID_RTEditor_CD_HVLayoutGroup_ChildForceExpandWidth" value="子力展開寬度"/>
+            <StringResource id="ID_RTEditor_CD_HVLayoutGroup_ChildForceExpandHeight" value="子力展開高度"/>
+            <StringResource id="ID_RTEditor_CD_HorizontalLayoutGroup" value="水平佈局組"/>
+            <StringResource id="ID_RTEditor_CD_VerticalLayoutGroup" value="垂直佈局組"/>
+		
+		<!-- Image.Type Enum -->
+		<StringResource id="ID_UnityEngine.UI.Image+Type.Sliced" value="切片"/>
+            <StringResource id="ID_UnityEngine.UI.Image+Type.Simple" value="簡單"/>
+            <StringResource id="ID_UnityEngine.UI.Image+Type.Tiled" value="平鋪"/>
+            <StringResource id="ID_UnityEngine.UI.Image+Type.Filled" value="填充"/>
+            <StringResource id="ID_UnityEngine.UI.Image+FillMethod.Horizontal" value="水平"/>
+            <StringResource id="ID_UnityEngine.UI.Image+FillMethod.Vertical" value="垂直"/>
+            <StringResource id="ID_UnityEngine.UI.Image+FillMethod.Radial90" value="R徑向90"/>
+            <StringResource id="ID_UnityEngine.UI.Image+FillMethod.Radial180" value="徑向180"/>
+            <StringResource id="ID_UnityEngine.UI.Image+FillMethod.Radial360" value="徑向360"/>
+            <StringResource id="ID_UnityEngine.FontStyle.Normal" value="普通"/>
+            <StringResource id="ID_UnityEngine.FontStyle.Bold" value="粗體"/>
+            <StringResource id="ID_UnityEngine.FontStyle.Italic" value="斜體"/>
+            <StringResource id="ID_UnityEngine.FontStyle.BoldAndItalic" value="粗斜體"/>
+            <StringResource id="ID_UnityEngine.TextAnchor.UpperLeft" value="左上"/>
+            <StringResource id="ID_UnityEngine.TextAnchor.UpperCenter" value="中上"/>
+            <StringResource id="ID_UnityEngine.TextAnchor.UpperRight" value="右上"/>
+            <StringResource id="ID_UnityEngine.TextAnchor.MiddleLeft" value="左中"/>
+            <StringResource id="ID_UnityEngine.TextAnchor.MiddleCenter" value="中中"/>
+            <StringResource id="ID_UnityEngine.TextAnchor.MiddleRight" value="右中"/>
+            <StringResource id="ID_UnityEngine.TextAnchor.LowerLeft" value="左下"/>
+            <StringResource id="ID_UnityEngine.TextAnchor.LowerCenter" value="中下"/>
+            <StringResource id="ID_UnityEngine.TextAnchor.LowerRight" value="右下"/>
+            <StringResource id="ID_UnityEngine.HorizontalWrapMode.Wrap" value="環繞"/>
+            <StringResource id="ID_UnityEngine.HorizontalWrapMode.Overflow" value="溢出"/>
+            <StringResource id="ID_UnityEngine.VerticalWrapMode.Overflow" value="溢出"/>
+            <StringResource id="ID_UnityEngine.VerticalWrapMode.Truncate" value="截斷"/>
+
+            <StringResource id="ID_TMPro.FontStyle.Normal" value="正常"/>
+            <StringResource id="ID_TMPro.FontStyle.Bold" value="粗體"/>
+            <StringResource id="ID_TMPro.FontStyle.Italic" value="斜體"/>
+            <StringResource id="ID_TMPro.FontStyle.Underline" value="下劃線"/>
+            <StringResource id="ID_TMPro.FontStyle.LowerCase" value="小寫"/>
+            <StringResource id="ID_TMPro.FontStyle.UpperCase" value="大寫"/>
+            <StringResource id="ID_TMPro.FontStyle.SmallCaps" value="小寫"/>
+            <StringResource id="ID_TMPro.FontStyle.Strikethrough" value="刪除線"/>
+            <StringResource id="ID_TMPro.FontStyle.Superscript" value="上標"/>
+            <StringResource id="ID_TMPro.FontStyle.Subscript" value="下標"/>
+            <StringResource id="ID_TMPro.FontStyle.Highlight" value="突出顯示"/>
+            <StringResource id="ID_TMPro.HorizontalAlignmentOptions.Left" value="左"/>
+            <StringResource id="ID_TMPro.HorizontalAlignmentOptions.Center" value="中"/>
+            <StringResource id="ID_TMPro.HorizontalAlignmentOptions.Right" value="右"/>
+            <StringResource id="ID_TMPro.HorizontalAlignmentOptions.Justified" value="對齊"/>
+            <StringResource id="ID_TMPro.HorizontalAlignmentOptions.Flush" value="齊平"/>
+            <StringResource id="ID_TMPro.HorizontalAlignmentOptions.Geometry" value="幾何"/>
+            <StringResource id="ID_TMPro.VerticalAlignmentOptions.Top" value="頂部"/>
+            <StringResource id="ID_TMPro.VerticalAlignmentOptions.Middle" value="中間"/>
+            <StringResource id="ID_TMPro.VerticalAlignmentOptions.Bottom" value="底部"/>
+            <StringResource id="ID_TMPro.VerticalAlignmentOptions.Baseline" value="基線"/>
+            <StringResource id="ID_TMPro.VerticalAlignmentOptions.Geometry" value="幾何"/>
+            <StringResource id="ID_TMPro.VerticalAlignmentOptions.Capline" value="Capline"/>
+
+            <StringResource id="ID_TMPro.TextOverflowModes.Overflow" value="溢出"/>
+            <StringResource id="ID_TMPro.TextOverflowModes.Ellipsis" value="省略號"/>
+            <StringResource id="ID_TMPro.TextOverflowModes.Masking" value="遮罩"/>
+            <StringResource id="ID_TMPro.TextOverflowModes.Truncate" value="截斷"/>
+            <StringResource id="ID_TMPro.TextOverflowModes.ScrollRect" value="滾動矩形"/>
+            <StringResource id="ID_TMPro.TextOverflowModes.Page" value="頁面"/>
+            <StringResource id="ID_TMPro.TextOverflowModes.Linked" value="鏈接"/>
+
+            <StringResource id="ID_TMPro.TextureMappingOptions.Character" value="字符"/>
+            <StringResource id="ID_TMPro.TextureMappingOptions.Line" value="線"/>
+            <StringResource id="ID_TMPro.TextureMappingOptions.Paragaph" value="段落"/>
+            <StringResource id="ID_TMPro.TextureMappingOptions.MatchAspect" value="匹配方面"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.TopLeft" value="左上角"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.Top" value="頂部"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.TopRight" value="右上角"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.TopJustified" value="頂部對齊"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.TopFlush" value="頂部齊平"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.TopGeoAligned" value="頂部地理對齊"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.Left" value="左"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.Center" value="中"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.Right" value="右"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.Justified" value="已填充"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.Flush" value="齊平"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.CenterGeoAligned" value="中心地理對齊"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.BottomLeft" value="左下角"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.Bottom" value="底部"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.BottomRight" value="右下角"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.BottomJustified" value="底部對齊"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.BottomFlush" value="底部齊平"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.BottomGeoAligned" value="底部地理對齊"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.BaselineLeft" value="基線左"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.Baseline" value="基線"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.BaselineRight" value="基線右"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.BaselineJustified" value="基線對齊"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.BaselineFlush" value="基線齊平"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.BaselineGeoAligned" value="基線地理對齊"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.MidlineLeft" value="左中線"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.Midline" value="中線"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.MidlineRight" value="中線右"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.MidlineJustified" value="中線對齊"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.MidlineFlush" value="中線齊平"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.MidlineGeoAligned" value="中線地理對齊"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.CaplineLeft" value="置左"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.Capline" value="置中"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.CaplineRight" value="置右"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.CaplineJustified" value="靠 對齊"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.CaplineFlush" value="靠 Flush"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.CaplineGeoAligned" value="靠 Geo Aligned"/>
+            <StringResource id="ID_TMPro.TextAlignmentOptions.Converted" value="轉換"/>
+
+            <StringResource id="ID_RTEditor_GOE_Layer" value="圖層"/>
+            <StringResource id="ID_RTEditor_PE_ArrayEditor_Size" value="大小"/>
+            <StringResource id="ID_RTEditor_PE_ObjectEditor_None" value="無"/>
+            <StringResource id="ID_RTEditor_PE_ObjectEditor_Select" value="選擇"/>
+            <StringResource id="ID_RTEditor_PE_ColorEditor_Select" value="選擇"/>
+            <StringResource id="ID_RTEditor_PE_PersistentCallEditor_NoFunction" value="無功能"/>
+            <StringResource id="ID_RTEditor_PE_TypeName_Material" value="材質"/>
+            <StringResource id="ID_RTEditor_PE_TypeName_Mesh" value="網格"/>
+            <StringResource id="ID_RTEditor_PE_TypeName_Object" value="對象"/>
+            <StringResource id="ID_RTEditor_PE_TypeName_GameObject" value="遊戲對象"/>
+            <StringResource id="ID_RTEditor_PE_TypeName_Component" value="組件"/>
+            <StringResource id="ID_RTEditor_PE_TypeName_Color" value="顏色"/>
+            <StringResource id="ID_RTEditor_PE_BoundsEditor_Center" value="中心"/>
+            <StringResource id="ID_RTEditor_PE_BoundsEditor_Extents" value="範圍"/>
+            <StringResource id="ID_RTEditor_AddComponentControl_AddComponent" value="添加組件"/>
+
+            <StringResource id="ID_RTEditor_ProjectFolderView_DeleteSelectedAssets" value="刪除選定的資產"/>
+            <StringResource id="ID_RTEditor_ProjectFolderView_YouCanNotUndoThisAction" value="你不能撤消這個動作"/>
+            <StringResource id="ID_RTEditor_ProjectFolderView_Folder" value="Folder"/>
+            <StringResource id="ID_RTEditor_ProjectFolderView_Create" value="建立"/>
+            <StringResource id="ID_RTEditor_ProjectFolderView_Material" value="Material"/>
+            <StringResource id="ID_RTEditor_ProjectFolderView_AnimationClip" value="動畫元件"/>
+            <StringResource id="ID_RTEditor_ProjectFolderView_Open" value="打開"/>
+            <StringResource id="ID_RTEditor_ProjectFolderView_Duplicate" value="複製"/>
+            <StringResource id="ID_RTEditor_ProjectFolderView_Delete" value="刪除"/>
+            <StringResource id="ID_RTEditor_ProjectFolderView_Rename" value="重命名"/>
+            <StringResource id="ID_RTEditor_ProjectFolderView_BtnDelete" value="刪除"/>
+            <StringResource id="ID_RTEditor_ProjectFolderView_BtnCancel" value="取消"/>
+            <StringResource id="ID_RTEditor_ProjectTreeView_CreateFolder" value="創建文件夾"/>
+            <StringResource id="ID_RTEditor_ProjectTreeView_Delete" value="刪除"/>
+            <StringResource id="ID_RTEditor_ProjectTreeView_Duplicate" value="重複"/>
+            <StringResource id="ID_RTEditor_ProjectTreeView_Rename" value="重命名"/>
+            <StringResource id="ID_RTEditor_ProjectTreeView_Folder" value="文件夾"/>
+            <StringResource id="ID_RTEditor_ProjectTreeView_UnableToRemove" value="無法刪除"/>
+            <StringResource id="ID_RTEditor_ProjectTreeView_UnableToRemoveRootFolder" value="無法刪除根文件夾"/>
+            <StringResource id="ID_RTEditor_ProjectTreeView_DeleteSelectedAssets" value="刪除所選資產"/>
+            <StringResource id="ID_RTEditor_ProjectTreeView_YouCannotUndoThisAction" value="您無法撤消此操作"/>
+            <StringResource id="ID_RTEditor_ProjectTreeView_Btn_Delete" value="刪除"/>
+            <StringResource id="ID_RTEditor_ProjectTreeView_Btn_Cancel" value="取消"/>
+
+
+		<StringResource id="ID_RTEditor_ProjectView_CantOpenProject" value="無法打開項目"/>
+            <StringResource id="ID_RTEditor_ProjectView_CantCloseProject" value="無法關閉項目"/>
+            <StringResource id="ID_RTEditor_ProjectView_UnableToImportAssets" value="無法導入資產"/>
+            <StringResource id="ID_RTEditor_ProjectView_UnableToRemove" value="無法刪除"/>
+            <StringResource id="ID_RTEditor_ProjectView_UnableToRenameAsset" value="無法重命名資產"/>
+            <StringResource id="ID_RTEditor_ProjectView_UnableToCreateFolder" value="無法創建文件夾"/>
+            <StringResource id="ID_RTEditor_ProjectView_UnableToMoveAssets" value="無法移動資產"/>
+            <StringResource id="ID_RTEditor_ProjectView_CantGetAssets" value="無法獲取資產"/>
+            <StringResource id="ID_RTEditor_ProjectView_UnableToLoadScene" value="無法加載場景"/>
+
+            <StringResource id="ID_RTEditor_ConsoleView_Btn_Clear" value="清除"/>
+
+            <StringResource id="ID_RTEditor_HierarchyView_UnableToLoadAssetItems" value="無法lo廣告資產項目"/>
+            <StringResource id="ID_RTEditor_HierarchyViewImpl_Duplicate" value="重複"/>
+            <StringResource id="ID_RTEditor_HierarchyViewImpl_Delete" value="刪除"/>
+            <StringResource id="ID_RTEditor_HierarchyViewImpl_Rename" value="重命名"/>
+            <StringResource id="ID_RTEditor_HierarchyViewModel_Group" value="分組/組"/>
+            <StringResource id="ID_RTEditor_HierarchyViewModel_GroupLocal" value="分組/組(本地)"/>
+            <StringResource id="ID_RTEditor_HierarchyViewModel_Ungroup" value="分組/取消分組"/>
+            <StringResource id="ID_RTEditor_HierarchyViewModel_EnterGroupName" value="輸入組名稱"/>
+            <StringResource id="ID_RTEditor_HierarchyViewModel_DefaultGroupName" value="組"/>
+
+            <StringResource id="ID_RTEditor_SaveSceneDialog_Save" value="保存"/>
+            <StringResource id="ID_RTEditor_SaveSceneDialog_Cancel" value="取消"/>
+            <StringResource id="ID_RTEditor_SaveSceneDialog_UnableToSaveScene" value="無法保存場景"/>
+            <StringResource id="ID_RTEditor_SaveSceneDialog_UnableToSaveScenePlayMode" value="無法在播放模式下保存場景"/>
+            <StringResource id="ID_RTEditor_SaveSceneDialog_SceneNameIsInvalid" value="場景名稱無效"/>
+            <StringResource id="ID_RTEditor_SaveSceneDialog_SceneNameShouldStartWith" value="場景名稱應以字母開頭"/>
+            <StringResource id="ID_RTEditor_SaveSceneDialog_SceneNameInvalidCharacters" value="場景名稱包含無效字符"/>
+            <StringResource id="ID_RTEditor_SaveSceneDialog_SceneWithSameNameExists" value="同名場景已存在"/>
+            <StringResource id="ID_RTEditor_SaveSceneDialog_DoYouWantToOverwriteIt" value="是否要覆蓋它?"/>
+            <StringResource id="ID_RTEditor_SaveSceneDialog_Yes" value="是"/>
+            <StringResource id="ID_RTEditor_SaveSceneDialog_No" value="否"/>
+
+            <StringResource id="ID_RTEditor_AssetLibSelectDialog_BuiltIn" value="內置"/>
+            <StringResource id="ID_RTEditor_AssetLibSelectDialog_External" value="外部"/>
+            <StringResource id="ID_RTEditor_AssetLibSelectDialog_Select" value="選擇"/>
+            <StringResource id="ID_RTEditor_AssetLibSelectDialog_Cancel" value="取消"/>
+            <StringResource id="ID_RTEditor_AssetLibSelectDialog_UnableToListBundles" value="無法列出資產包"/>
+            <StringResource id="ID_RTEditor_AssetLibSelectDialog_OK" value="OK"/>
+            <StringResource id="ID_RTEditor_AssetLibImportDialog_Btn_Import" value="導入"/>
+            <StringResource id="ID_RTEditor_AssetLibImportDialog_Btn_Cancel" value="取消"/>
+            <StringResource id="ID_RTEditor_AssetLibImportDialog_UnableToLoadAssetLibrary" value="無法加載 AssetLibrary"/>
+
+            <StringResource id="ID_RTEditor_ImportFileDialog_Btn_Open" value="打開"/>
+            <StringResource id="ID_RTEditor_ImportFileDialog_Btn_Cancel" value="取消"/>
+            <StringResource id="ID_RTEditor_ImportFileDialog_Btn_Import" value="導入"/>
+
+            <StringResource id="ID_RTEditor_SaveFileDialog_Btn_Open" value="打開"/>
+            <StringResource id="ID_RTEditor_SaveFileDialog_Btn_Cancel" value="取消"/>
+            <StringResource id="ID_RTEditor_SaveFileDialog_Btn_Save" value="保存"/>
+            <StringResource id="ID_RTEditor_SaveFileDialog_SaveAsConfirmationHeader" value="另存為 確認"/>
+            <StringResource id="ID_RTEditor_SaveFileDialog_SaveAsConfirmation" value="同名文件已存在。是否要覆蓋？"/>
+            <StringResource id="ID_RTEditor_OpenFileDialog_Btn_Open" value="打開"/>
+            <StringResource id="ID_RTEditor_OpenFileDialog_Btn_Cancel" value="取消"/>
+
+            <StringResource id="ID_RTEditor_ProjectsDialog_Btn_Create" value="創建"/>
+            <StringResource id="ID_RTEditor_ProjectsDialog_Btn_Delete" value="刪除"/>
+            <StringResource id="ID_RTEditor_ProjectsDialog_Btn_Open" value="打開"/>
+            <StringResource id="ID_RTEditor_ProjectsDialog_Btn_Cancel" value="取消"/>
+            <StringResource id="ID_RTEditor_ProjectsDialog_CreateProject" value="創建項目"/>
+            <StringResource id="ID_RTEditor_ProjectsDialog_UnableToCreateProject" value="無法創建項目"/>
+            <StringResource id="ID_RTEditor_ProjectsDialog_ProjectWithSameNameExists" value="同名項目已存在"/>
+            <StringResource id="ID_RTEditor_ProjectsDialog_DeleteProject" value="刪除項目"/>
+            <StringResource id="ID_RTEditor_ProjectsDialog_AreYouSureDeleteProject" value="刪除{0}項目?"/>
+            <StringResource id="ID_RTEditor_ProjectsDialog_UnableToGetProjects" value="無法獲取項目"/>
+            <StringResource id="ID_RTEditor_ProjectsDialog_UnableToOpenProject" value="無法打開項目"/>
+
+            <StringResource id="ID_RTEditor_SaveAssetsDialog_Save" value="保存"/>
+            <StringResource id="ID_RTEditor_SaveAssetsDialog_Cancel" value="取消"/>
+            <StringResource id="ID_RTEditor_SaveAssetsDialog_UnableToSaveAsset" value="無法保存資產"/>
+            <StringResource id="ID_RTEditor_SaveAssetsDialog_UnableToSaveAssetInPlayMode" value="播放模式下無法保存資產"/>
+            <StringResource id="ID_RTEditor_SaveAssetsDialog_AssetNameIsInvalid" value="資產名稱無效"/>
+            <StringResource id="ID_RTEditor_SaveAssetsDialog_AssetNameShouldStartWith" value="資產名稱應以字母開頭"/>
+            <StringResource id="ID_RTEditor_SaveAssetsDialog_AssetNameInvalidCharacters" value="資產名稱包含無效字符"/>
+            <StringResource id="ID_RTEditor_SaveAssetsDialog_AssetWithSameNameExists" value="同名資產已經存在"/>
+            <StringResource id="ID_RTEditor_SaveAssetsDialog_DoYouWantToOverwriteIt" value="你要覆蓋它嗎？"/>
+            <StringResource id="ID_RTEditor_SaveAssetsDialog_UnableToDeleteAsset" value="無法刪除資產"/>
+            <StringResource id="ID_RTEditor_SaveAssetsDialog_Yes" value="是"/>
+            <StringResource id="ID_RTEditor_SaveAssetsDialog_No" value="否"/>
+            <StringResource id="ID_RTEditor_SelectColorDialog_Select" value="選擇"/>
+            <StringResource id="ID_RTEditor_SelectColorDialog_Cancel" value="取消"/>
+		
+		<StringResource id="ID_RTEditor_SelectObjectDialog_Search" value="搜索..."/>
+            <StringResource id="ID_RTEditor_SelectObjectDialog_Assets" value="資產"/>
+            <StringResource id="ID_RTEditor_SelectObjectDialog_Scene" value="場景"/>
+            <StringResource id="ID_RTEditor_SelectObjectDialog_Select" value="選擇"/>
+            <StringResource id="ID_RTEditor_SelectObjectDialog_Cancel" value="取消"/>
+            <StringResource id="ID_RTEditor_SelectObjectDialog_CantGetAssets" value="無法獲取資產"/>
+            <StringResource id="ID_RTEditor_SelectObjectDialog_None" value="無"/>
+
+            <StringResource id="ID_RTEditor_SettingsDialog_Reset" value="重置"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_Close" value="關閉"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_IsGridVisible" value="網格可見"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_GridZTest" value="網格 Z 測試"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_GridOpacity" value="網格不透明度"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_SnapToGrid" value="對齊網格"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_GridSize" value="網格大小"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_UIAutoScale" value="UI自動縮放"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_UIScale" value="UI縮放"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_FreeMovementSmoothSpeed" value="移動平滑速度"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_FreeRotationSmoothSpeed" value="旋轉平滑速度"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_RotationInvertX" value="旋轉反轉X"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_RotationInvertY" value="旋轉反轉Y"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_ZoomSpeed" value="縮放速度"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_ConstantZoomSpeed" value="恆定縮放速度"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_UISettings" value="UI設置"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_SceneSettings" value="場景設置"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_SceneNavigationSettings" value="場景導航設置"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_SystemOfMeasurement" value="測量系統"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_MeasurementSettings" value="測量設置"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_GraphicsSettings" value="圖形設置"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_GraphicsQuality" value="質量"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_DefaultLightSettings" value="預設燈光設置"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_LightColor" value="顏色"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_LightIntensity" value="強度"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_ShadowType" value="陰影類型"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_ShadowStrenth" value="陰影強度"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_Themes" value="主題"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_SelectedTheme" value="選定主題"/>
+            <StringResource id="ID_RTEditor_SettingsDialog_Default" value="預設"/>
+
+            <StringResource id="ID_RTEditor_Create" value="創建"/>
+            <StringResource id="ID_RTEditor_Cancel" value="取消el"/>
+            <StringResource id="ID_RTEditor_CreateNewScene" value="創建新場景"/>
+            <StringResource id="ID_RTEditor_DoYouWantCreateNewScene" value="是否要創建新場景?"/>
+            <StringResource id="ID_RTEditor_UnsavedChangesWillBeLost" value="所有未保存的更改將丟失"/>
+            <StringResource id="ID_RTEditor_UnableToSaveScene" value="無法保存場景"/>
+            <StringResource id="ID_RTEditor_UnableToSaveSceneInPlayMode" value="播放模式下無法保存場景"/>
+            <StringResource id="ID_RTEditor_CreatePrefab" value="創建預製件"/>
+            <StringResource id="ID_RTEditor_IncludeDependencies" value="包含依賴項?"/>
+            <StringResource id="ID_RTEditor_Yes" value="是"/>
+            <StringResource id="ID_RTEditor_No" value="否"/>
+
+            <StringResource id="ID_RTEditor_UnableToCreatePrefab" value="無法創建預製件"/>
+            <StringResource id="ID_RTEditor_UnableToSaveAsset" value="無法保存資源"/>
+            <StringResource id="ID_RTEditor_UnableToDeleteFolders" value="無法刪除文件夾"/>
+            <StringResource id="ID_RTEditor_UnableToLoadAssets" value="無法加載資源"/>
+            <StringResource id="ID_RTEditor_DirectionalLight" value="定向光"/>
+            <StringResource id="ID_RTEditor_Camera" value="相機"/>
+		
+		<!-- AnimationView -->
+		
+<StringResource id="ID_RTEditor_AnimationView_Preview" value="預覽"/>
+            <StringResource id="ID_RTEditor_AnimationView_Samples" value="樣本"/>
+            <StringResource id="ID_RTEditor_AnimationView_Dopesheet" value="攝影表"/>
+            <StringResource id="ID_RTEditor_AnimationView_Btn_AddProperty" value="添加屬性"/>
+            <StringResource id="ID_RTEditor_AnimationView_SaveAnimationClip" value="保存動畫剪輯"/>
+            <StringResource id="ID_RTEditor_AnimationView_NewAnimationClip" value="新建動畫剪輯"/>
+            <StringResource id="ID_RTEditor_AnimationView_Condition2" value="在動畫{0}-創建一個動畫和一個動畫元件"/>
+            <StringResource id="ID_RTEditor_AnimationView_Condition1" value="在動畫{0}-請創建 動畫 元件"/>
+
+
+		<!-- Moblie -->
+            <StringResource id="ID_RTEditor_Peek_Pin" value="釘選"/>
+            <StringResource id="ID_RTEditor_Peek_Hierarchy" value="物件列表"/>
+            <StringResource id="ID_RTEditor_Peek_Inspector" value="屬性"/>
+            <StringResource id="ID_RTEditor_Peek_Project" value="專案"/>
+            <StringResource id="ID_RTEditor_Peek_Game" value="小預覽"/>
+            <StringResource id="ID_RTEditor_Peek_Animation" value="動畫"/>
+            <StringResource id="ID_RTEditor_Peek_Console" value="主控台"/>
+            <StringResource id="ID_RTEditor_Peek_CreatePrefab" value="建立 Prefab"/>
+            <StringResource id="ID_RTEditor_Peek_CreateGroup" value="建立 群組"/>
+            <StringResource id="ID_RTEditor_Peek_CreateGroupLocal" value="建立 群組 (Local)"/>
+            <StringResource id="ID_RTEditor_Peek_Ungroup" value="解散群組"/>
+            <StringResource id="ID_RTEditor_Peek_EnterGroupName" value="輸入組名"/>
+            <StringResource id="ID_RTEditor_Peek_DefaultGroupName" value="群組"/>
+            <StringResource id="ID_RTEditor_Peek_Create" value="建立 "/>
+            <StringResource id="ID_RTEditor_Peek_Cancel" value="取消"/>
+            <StringResource id="ID_RTEditor_MobileImporterView" value="導入"/>
+            <StringResource id="ID_RTEditor_MobileImporterViewModel_Btn_Import" value="導入"/>
+            <StringResource id="ID_RTEditor_MobileImporterViewModel_Btn_Cancel" value="取消"/>
+
+            
+            <StringResource id="ID_RTEditor_WM_Header_ExportScene" value="匯出情境"/>
+		    <StringResource id="Export From File" value="情境匯出"/>
+		    <StringResource id="Btn_Export_Gltf" value="匯出Gltf"/>
+		    <StringResource id="Btn_Export_Gltf" value="匯出Gltf"/>
+		    <StringResource id="eader_NewScene_Btn_NewScene" value="建立"/>
+		    <StringResource id="Export Scene File" value="匯出情境"/>
+            
+            <StringResource id="ID_RTEditor_CD_StoryCanAnimObject" value="物件動畫設定"/>
+            <StringResource id="ID_RTEditor_CD_StoryMaterialObject" value="物件材質設定"/>
+            <StringResource id="ID_RTEditor_CD_StoryCharAnimObject" value="角色動作設定"/>
+            <StringResource id="ID_RTEditor_WM_Header_NewScene" value="建立情境"/>
+
+            <StringResource id="SBEditor_IX_Title" value="情境腳本敏捷編輯工具"/>
+            <StringResource id="SBEditor_IX_OneStageEditor" value="單一情境元素編輯器"/>
+            <StringResource id="SBEditor_IX_StageBoardEditor" value="敏捷故事情境編輯器"/>
+
+
+            <StringResource id="Btn_SetCamera_Main" value="指定為主攝影機"/>
+            <StringResource id="Btn_SetAnimation" value="設定動畫"/>
+            <StringResource id="Btn_SetAni_Float" value="飄浮"/>
+            <StringResource id="Btn_SetAni_Scale" value="縮放"/>
+            <StringResource id="Btn_SetAni_Rot" value="旋轉"/>
+            <StringResource id="Btn_SetAni_Time" value="時間"/>
+
+            <StringResource id="Btn_CustomAnimation" value="自訂動畫"/>
+            <StringResource id="Btn_SetAudio" value="設定音效"/>
+            <StringResource id="PoseEditor_NotSupport" value="目前動畫不支援匯出，選擇動作或點擊"/>
+            <StringResource id="PoseEditor_TranfrAniFormat" value="轉換為可匯出動畫"/>
+            <StringResource id="PoseEditor_Btn_PlayPause" value="播放/暫停"/>
+            <StringResource id="PoseEditor_Btn_Save" value="儲 存"/>
+            <StringResource id="PoseEditor_Btn_Expoxt" value="輸出動畫"/>
+            <StringResource id="PoseEditor_Btn_AddFrame" value="增加動作"/>
+            <StringResource id="PoseEditor_Btn_AddLink" value="連結設定"/>
+
+
+            <StringResource id="ID_RTEditor_WM_Header_NewScene" value="創建新場景"/>
+            <StringResource id="NewScene_Select" value="選擇新情景樣版"/>
+            <StringResource id="NewScene_BtnCreate" value="建立"/>
+
+            <StringResource id="NewScene_Blank" value="空白情境"/>
+            <StringResource id="NewScene_VSpeech" value="演講會場情境"/>
+            <StringResource id="NewScene_VShop" value="虛實精品"/>
+            <StringResource id="NewScene_Factory" value="前店後廠"/>
+            <StringResource id="NewScene_FiveFair" value="精品五金展會場"/>
+            <StringResource id="NewScene_SpeechStage" value="遠端演講舞台"/>
+            <StringResource id="NewScene_VRShowRoom" value="A2-頭載VR"/>
+            <StringResource id="NewScene_VrStage" value="精品VR"/>
+            <StringResource id="NewScene_Vr360" value="精品360介紹VR"/>
+            <StringResource id="Scene_Duration_Label" value="影片時數："/>
+            <StringResource id="Scene_Duration_Sec" value="秒"/>
+
+
+            <StringResource id="SceneExport_Btn_Video" value="輸出影片"/>
+            <StringResource id="SceneExport_Btn_Html" value="輸出網頁"/>
+            <StringResource id="ExportHtml_Title" value="輸出網頁"/>
+            <StringResource id="ExportHtml_Desc" value="匯出網頁為資料夾，需上傳至主機瀏覽"/>
+            <StringResource id="ExportHtml_Btn_Export" value="輸出網頁"/>
+            
+            <StringResource id="ExportVideo_Format" value="影片格式"/>
+            <StringResource id="ExportVideo_Btn_Export" value="匯出影片"/>
+            
+            <StringResource id="ID_RTEditor_WM_Header_ExportScene" value="匯出選擇模型"/>
+            <StringResource id="ExportModel_Select" value="選擇物件數量:"/>
+            <StringResource id="ExportModel_Glb" value="匯出 .glb"/>
+            <StringResource id="ExportModel_Gltf" value="匯出 .Gltf"/>
+            <StringResource id="ExportModel_Fbx" value="匯出 .Fbx"/>
+
+            <StringResource id="CharComp_Action" value="動作"/>
+
+            <StringResource id="Action_Idle" value="待機"/>
+            <StringResource id="Action_Walk" value="走路"/>
+            <StringResource id="Action_WaveHand" value="揮手"/>
+            <StringResource id="Action_ShakeHand" value="握手"/>
+            <StringResource id="Action_Talking" value="講電話"/>
+            <StringResource id="Action_ClapHand" value="拍手"/>
+            <StringResource id="Action_Greeting" value="問候"/>
+            <StringResource id="Action_TakeButton" value="按鍵"/>
+            <StringResource id="Action_OpenDoor" value="開門"/>
+
+
+            <StringResource id="MeshComp_Select_tex" value="選擇貼圖"/>
+            <StringResource id="MeshComp_Resume" value="還原"/>
+            <StringResource id="ID_RTEditor_WM_Header_StroyBrdWindow" value="故事編輯器"/>
+            <StringResource id="ID_RTEditor_WM_Header_StroyBrdRes" value="情境列表"/>
+            <StringResource id="ID_RTEditor_WM_Header_StroyBrdExport" value="故事匯出"/>
+            <StringResource id="ID_RTEditor_WM_Header_ExportVideo" value="Export Video"/>
+            <StringResource id="ID_RTEditor_WM_Header_ExportHtml" value="Export Html"/>
+
+
+            <StringResource id="StoryboardNode_Start" value="開始播放"/>
+            <StringResource id="StoryboardNode_DefaltCam" value="預設攝影機"/>
+            <StringResource id="StoryboardNode_Sec" value="秒數"/>
+            <StringResource id="StoryboardNode_Transition" value="轉場"/>
+            <StringResource id="StoryboardNode_Transition_Cross" value="漸變"/>
+            <StringResource id="StoryboardNode_Transition_Deg45" value="45度"/>
+            <StringResource id="StoryboardNode_Transition_VLine" value="直線"/>
+            <StringResource id="StoryboardNode_Transition_Diamond" value="菱形"/>
+
+            
+            <StringResource id="PoseEditor_Btn_AddTitle" value="標題設定"/>
+            <StringResource id="PoseEditor_Btn_AddDesc" value="內文設定"/>
+            
+            <StringResource id="MENU_CREATE" value="建立"/>
+            <StringResource id="Hotspot" value="說明標示"/>
+            <StringResource id="MENU_CREATE_Hotspot" value="建立說明標示"/>
+
+            <StringResource id="Stage_DoorText_TOP" value="上方出口連結"/>
+            <StringResource id="Stage_DoorText_LEFT" value="左方出口連結"/>
+            <StringResource id="Stage_DoorText_RIGHT" value="右方出口連結"/>
+            <StringResource id="Stage_DoorText_DOWN" value="下方出口連結"/>
+            <StringResource id="ExportHtml_Btn_Export_360" value="輸出網頁(360)"/>
+            <StringResource id="ExportHtml_Btn_Export_vr" value="輸出網頁(VR)"/>
+            <StringResource id="NewScene_Floorplan" value="平面圖"/>
+            <StringResource id="NODE_TYPE_STAGE" value="場景"/>
+            <StringResource id="NODE_TYPE_MINIMAP" value="小地圖"/>
+
+
+            
+            <StringResource id="ID_UnityEngine.LightType.Spot" value="聚光燈"/>
+            <StringResource id="ID_UnityEngine.LightType.Directional" value="方向光"/>
+            <StringResource id="ID_UnityEngine.LightType.Point" value="點光"/>
+            <StringResource id="ID_UnityEngine.LightType.Area" value="區域光"/>
+            <StringResource id="ID_UnityEngine.LightType.Rectangle" value="邊光"/>
+            <StringResource id="ID_UnityEngine.LightType.Disc" value="面光"/>
+            <StringResource id="ID_UnityEngine.LightShadows.None" value="沒陰影"/>
+            <StringResource id="ID_UnityEngine.LightShadows.Hard" value="硬陰影"/>
+            <StringResource id="ID_UnityEngine.LightShadows.Soft" value="柔陰影"/>
+            <StringResource id="ID_UnityEngine.Rendering.LightShadowResolution.Low" value="低"/>
+            <StringResource id="ID_UnityEngine.Rendering.LightShadowResolution.Medium" value="中"/>
+            <StringResource id="ID_UnityEngine.Rendering.LightShadowResolution.High" value="高"/>
+            <StringResource id="ID_UnityEngine.Rendering.LightShadowResolution.VeryHigh" value="很高"/>
+            <StringResource id="ID_UnityEngine.Rendering.LightShadowResolution.FromQualitySettings" value="很高"/>
+            <StringResource id="ID_RTEditor_PE_TypeName_Texture" value="貼圖"/>
+            <StringResource id="ID_RTEditor_PE_TypeName_Flare" value="漫射"/>
+            <StringResource id="ID_UnityEngine.LightRenderMode.Auto" value="自動"/>
+            <StringResource id="ID_UnityEngine.LightRenderMode.ForcePixel" value="像素"/>
+            <StringResource id="ID_UnityEngine.LightRenderMode.ForceVertex" value="三角點"/>
+            <StringResource id="ID_Battlehub.RTEditor.CameraComponentDescriptor" value="透視"/>
+            <StringResource id="Projection.Perspective" value="透視"/>
+            <StringResource id="Projection.Orthographic" value="平行"/>
+            <StringResource id="ID_Battlehub.RTEditor.CameraComponentDescriptor+Projection.Perspective" value="透視"/>
+            <StringResource id="ID_Battlehub.RTEditor.CameraComponentDescriptor+Projection.Orthographic" value="平行"/>
+
+            <StringResource id="ExportHtml_Btn_Export_exe" value="輸出執行檔"/>
+            <StringResource id="LINK_OPTION_INSITE" value="站內連結"/>
+            <StringResource id="LINK_OPTION_EXTERNAL" value="外連"/>
+            <StringResource id="MENU_CREATE_Marker" value="建立地點標示"/>
+            <StringResource id="Marker" value="地點標示"/>
+
+
+            
+            <StringResource id="SBEditor_IX_StreamBoardEditor" value="直播情境編輯器"/>
+            <StringResource id="ID_RTEditor_WM_Header_StreamOut" value="直播輸出設定"/>
+            <StringResource id="ID_RTEditor_WM_Header_StreamingAudio" value="直播聲音控制"/>
+            <StringResource id="ID_StreamOut_Btn_StartStreaming" value="開始直播"/>
+            <StringResource id="ID_StreamOut_Btn_StartRecord" value="開始錄製"/>
+            <StringResource id="ID_StreamOut_Btn_StreamingSet" value="串流設定"/>
+
+
+            
+            
+            
+            
+	</Resources>
+</StringResources>

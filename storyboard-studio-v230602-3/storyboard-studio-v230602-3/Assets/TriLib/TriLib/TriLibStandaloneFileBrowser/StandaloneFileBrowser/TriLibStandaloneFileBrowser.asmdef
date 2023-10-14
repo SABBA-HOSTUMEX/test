@@ -1,0 +1,15 @@
+{
+    "name": "TriLibStandaloneFileBrowser",
+    "references": [
+        "GUID:3df19a166d643d642bf241badcf4459f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

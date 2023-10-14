@@ -1,0 +1,740 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a37e76ce395ad4a9d0c4633bbe6e21, type: 3}
+  m_Name: SceneAssetLibrary
+  m_EditorClassIdentifier: 
+  m_offset: 0
+  m_ordinal: 0
+  m_assetLibrary:
+    m_ID: 0
+    m_Name: Root
+    m_Depth: -1
+    Identity: 105
+    FolderIdentity: 4
+    Folders:
+    - m_ID: 0
+      m_Name: Root
+      m_Depth: -1
+      Assets: []
+      IsEnabled: 0
+    - m_ID: 3
+      m_Name: Assets
+      m_Depth: 0
+      Assets:
+      - m_ID: 4
+        m_Name: Cashier
+        m_Depth: 0
+        Object: {fileID: 4759399431803289990, guid: 16289529dce624a868bef8fdcf031158, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 5
+        m_Name: CashMachine
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 284add65de35d49ceb3def9d4f8d7bd6, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 6
+        m_Name: LapTop
+        m_Depth: 0
+        Object: {fileID: -5989907257096109972, guid: 16289529dce624a868bef8fdcf031158, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 7
+        m_Name: LapTop
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 2ec0d85eb7bfb4e8c8ee89b6f2d43220, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 8
+        m_Name: Room
+        m_Depth: 0
+        Object: {fileID: 5551418225153903260, guid: 16289529dce624a868bef8fdcf031158, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 9
+        m_Name: RoomFloor
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 07afa122a1ecc405dae85c9e078f199d, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 10
+        m_Name: Room
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: a130c41e7ea834befad343ac1c055b46, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 11
+        m_Name: Table
+        m_Depth: 0
+        Object: {fileID: -6692290496178104961, guid: 16289529dce624a868bef8fdcf031158, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 12
+        m_Name: Materialcabinet
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 349e73dbde4ba4270bd7e9c9b97f3d35, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 13
+        m_Name: Table.001
+        m_Depth: 0
+        Object: {fileID: 2700354272823574166, guid: 16289529dce624a868bef8fdcf031158, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 14
+        m_Name: table_foot
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: cf600ca91c5244d98907eab034608a57, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 15
+        m_Name: table_plafr
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 15d47448e86b049cea8b3f437dd1d182, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 16
+        m_Name: Table.002
+        m_Depth: 0
+        Object: {fileID: -5795158982173061755, guid: 16289529dce624a868bef8fdcf031158, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 17
+        m_Name: Table.003
+        m_Depth: 0
+        Object: {fileID: 2692889195491215165, guid: 16289529dce624a868bef8fdcf031158, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 18
+        m_Name: Table.004
+        m_Depth: 0
+        Object: {fileID: 632285366974254814, guid: 16289529dce624a868bef8fdcf031158, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 19
+        m_Name: Table.005
+        m_Depth: 0
+        Object: {fileID: 2690104283684236836, guid: 16289529dce624a868bef8fdcf031158, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 20
+        m_Name: Table.checkout
+        m_Depth: 0
+        Object: {fileID: 8125578759359294094, guid: 16289529dce624a868bef8fdcf031158, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 21
+        m_Name: tv-1
+        m_Depth: 0
+        Object: {fileID: 7573208775757391411, guid: 16289529dce624a868bef8fdcf031158, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 22
+        m_Name: TvFrameMaterial
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: c846d8c86bfc14e43939d46eeebdc4bc, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 23
+        m_Name: TvContent
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 776ea68333ce04863a4a3729713e26f4, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 24
+        m_Name: tv-1.001
+        m_Depth: 0
+        Object: {fileID: -1405583907719119335, guid: 16289529dce624a868bef8fdcf031158, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 25
+        m_Name: booth_stage
+        m_Depth: 0
+        Object: {fileID: -2320815636998333778, guid: 0bb7e7030ae35425abb4b83f5dd9351c, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 26
+        m_Name: MainMaterial
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: f73b63710449744c69cb42ebfc28d40c, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 27
+        m_Name: TeakMat
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: b28e2b770548e49aaa1107153cc6d935, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 28
+        m_Name: intro_table
+        m_Depth: 0
+        Object: {fileID: 7645416872077422439, guid: 0bb7e7030ae35425abb4b83f5dd9351c, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 29
+        m_Name: intro_table_L
+        m_Depth: 0
+        Object: {fileID: 965154980310734894, guid: 0bb7e7030ae35425abb4b83f5dd9351c, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 30
+        m_Name: mainTV
+        m_Depth: 0
+        Object: {fileID: 1818603284179705088, guid: 0bb7e7030ae35425abb4b83f5dd9351c, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 31
+        m_Name: TvFrameMaterial 1
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: dbaadeaf0a82040f99dbd50e7acc6a40, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 32
+        m_Name: TvContent 1
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: cc47fff8598714edd8874c5744d888f5, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 33
+        m_Name: safa_1
+        m_Depth: 0
+        Object: {fileID: -2734041393296374634, guid: 0bb7e7030ae35425abb4b83f5dd9351c, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 34
+        m_Name: ClothsMaterial
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 854324c667180426db9f095c85f3398e, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 35
+        m_Name: MatelMaterial
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 8c0dc5c0f92744e24a6f64ee18ef55c8, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 36
+        m_Name: safa_2
+        m_Depth: 0
+        Object: {fileID: -4729064107629716012, guid: 0bb7e7030ae35425abb4b83f5dd9351c, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 37
+        m_Name: safa_table
+        m_Depth: 0
+        Object: {fileID: 4120530857973648668, guid: 0bb7e7030ae35425abb4b83f5dd9351c, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 38
+        m_Name: tv-1
+        m_Depth: 0
+        Object: {fileID: 7573208775757391411, guid: 0bb7e7030ae35425abb4b83f5dd9351c, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 39
+        m_Name: tv-2
+        m_Depth: 0
+        Object: {fileID: -5909464893778249129, guid: 0bb7e7030ae35425abb4b83f5dd9351c, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 40
+        m_Name: Chairs_all
+        m_Depth: 0
+        Object: {fileID: -2611083770140273426, guid: 3a235243a168c46f3a3ed3739de670b7, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 41
+        m_Name: ChairFootMat
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: b244d7445e5d24584a52e695fe1cb53e, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 42
+        m_Name: ChairColthMat
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: d5ec3e884e9b046bc9855a9f45e21d4a, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 43
+        m_Name: hall
+        m_Depth: 0
+        Object: {fileID: 5317751686581998512, guid: 3a235243a168c46f3a3ed3739de670b7, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 44
+        m_Name: hall_floor
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 2ce73ef5cd15c4ad8b5011da6ef449e8, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 45
+        m_Name: hall_wall
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 8aa11eb7c9b39479d95a8c1ff927de63, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 46
+        m_Name: Podium
+        m_Depth: 0
+        Object: {fileID: -4437772860958094431, guid: 3a235243a168c46f3a3ed3739de670b7, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 47
+        m_Name: Materialpodium
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 66b48a69e06e44ed08e3ea4f8e6de299, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 48
+        m_Name: redCloth
+        m_Depth: 0
+        Object: {fileID: -781785447470388549, guid: 3a235243a168c46f3a3ed3739de670b7, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 49
+        m_Name: backgound_cloth
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 57d117e8b7619411fb8b05d67fb6cae5, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 50
+        m_Name: stage
+        m_Depth: 0
+        Object: {fileID: -8356671696667151869, guid: 3a235243a168c46f3a3ed3739de670b7, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 51
+        m_Name: Standard
+        m_Depth: 0
+        Object: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 52
+        m_Name: WoodFloor058_1K_Color
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: b6025336289e94d86bd071d99627aa7c, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 53
+        m_Name: Porcelain001_1K_Color
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: d6478acf6a52b4a1e923150b7e68b2f4, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 54
+        m_Name: 1K-brushed_metal_1-base_90dge
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: a1216239acee04f4d98befcef78dcfb6, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 55
+        m_Name: 1K-fabric_78_basecolor
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: 3d9f50a6d34714061bc29919aab9e6f5, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 56
+        m_Name: image_iii_image
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: 3a342935cfb3443f4ba3c37a0df1c1ac, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 57
+        m_Name: booth_stage
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: 00bcaa5a0e3254fd19c226bb09d140c8, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 58
+        m_Name: image_iii_image 1
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: 9432ddeabf6f84bc0ba3ec2eecc50b2e, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 59
+        m_Name: 1K-plaster_14-ao
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: af0a99a8bb5ec48e3b3ba1ae540ddc54, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 60
+        m_Name: 1K-brushed_metal_1-specular
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: 30feeea59ed6e45858e013e10c7a08a8, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 61
+        m_Name: tiling_61_basecolor-1K
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: d3ee4326a18fd4032b449ee29637c86f, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 62
+        m_Name: wall
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: e8395142bb8cf4329b0e76d59696c8d7, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 63
+        m_Name: Room
+        m_Depth: 0
+        Object: {fileID: 5551418225153903260, guid: dcc13226c31644e18a864672d2aa2e06, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 64
+        m_Name: RoomFloor
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 7005b9268be054c3085e3463d0fdc002, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 65
+        m_Name: Room
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: f3697d83ede014d5e8a1829e320333f5, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 66
+        m_Name: Cashier
+        m_Depth: 0
+        Object: {fileID: 4759399431803289990, guid: dcc13226c31644e18a864672d2aa2e06, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 67
+        m_Name: CashMachine
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 5e24f6b0f438f4f45b9dcc41534945fc, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 68
+        m_Name: LapTop
+        m_Depth: 0
+        Object: {fileID: -5989907257096109972, guid: dcc13226c31644e18a864672d2aa2e06, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 69
+        m_Name: LapTop
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: ea802bfd6501d42269cceef80b821357, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 70
+        m_Name: Table
+        m_Depth: 0
+        Object: {fileID: -6692290496178104961, guid: dcc13226c31644e18a864672d2aa2e06, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 71
+        m_Name: Materialcabinet
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: ceb08046554884f29b633c891ab0e783, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 72
+        m_Name: Table.001
+        m_Depth: 0
+        Object: {fileID: 2700354272823574166, guid: dcc13226c31644e18a864672d2aa2e06, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 73
+        m_Name: table_foot
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 3553109f35dce49b89ce604a9b529ebb, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 74
+        m_Name: table_plafr
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 38791c5b88c6f4e5482e567558e88b8a, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 75
+        m_Name: Table.002
+        m_Depth: 0
+        Object: {fileID: -5795158982173061755, guid: dcc13226c31644e18a864672d2aa2e06, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 76
+        m_Name: Table.003
+        m_Depth: 0
+        Object: {fileID: 2692889195491215165, guid: dcc13226c31644e18a864672d2aa2e06, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 77
+        m_Name: Table.004
+        m_Depth: 0
+        Object: {fileID: 632285366974254814, guid: dcc13226c31644e18a864672d2aa2e06, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 78
+        m_Name: Table.005
+        m_Depth: 0
+        Object: {fileID: 2690104283684236836, guid: dcc13226c31644e18a864672d2aa2e06, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 79
+        m_Name: Table.checkout
+        m_Depth: 0
+        Object: {fileID: 8125578759359294094, guid: dcc13226c31644e18a864672d2aa2e06, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 80
+        m_Name: tv-1
+        m_Depth: 0
+        Object: {fileID: 7573208775757391411, guid: dcc13226c31644e18a864672d2aa2e06, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 81
+        m_Name: TvFrameMaterial
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: b51fbad1451054ecd9bfe8f4509f15c7, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 82
+        m_Name: TvContent
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: 08f73256ac1fe429db6ee6d0028d45e2, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 83
+        m_Name: tv-1.001
+        m_Depth: 0
+        Object: {fileID: -1405583907719119335, guid: dcc13226c31644e18a864672d2aa2e06, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 84
+        m_Name: WoodFloor058_1K_Color 1
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: 1592a3bc7591b4144857c12a48264c76, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 85
+        m_Name: Porcelain001_1K_Color 1
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: ea3f9c9b45855428b9c39bc65d8bcbb0, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 86
+        m_Name: 1K-brushed_metal_1-base_90dge 1
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: f21089bb690ca466894a738fe26d2b46, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 87
+        m_Name: 1K-fabric_78_basecolor 1
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: c6eddb89df2c14869833fe89d205158f, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 88
+        m_Name: image_iii_image 1
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: 8cc88bfa26ecc411a88be5f63c98cd44, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 89
+        m_Name: m_48053097162319f7
+        m_Depth: 0
+        Object: {fileID: 2100000, guid: d644a57a1f5ff4c77be60efdc2e95661, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 90
+        m_Name: NotoSansTC-Regular SDF
+        m_Depth: 0
+        Object: {fileID: 11400000, guid: 2f71d687af6a4468d8c163b993bac0b0, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 91
+        m_Name: Sprites/Default
+        m_Depth: 0
+        Object: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 92
+        m_Name: m_48053097162319f7
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: dec21b966510d42c2af02c3698a496a6, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 93
+        m_Name: TvContent
+        m_Depth: 0
+        Object: {fileID: 1997141504434185082, guid: c90c9a8bf1da64faab14a203aea964c5, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 94
+        m_Name: Cube
+        m_Depth: 0
+        Object: {fileID: -5495902117074765545, guid: b3a372650f6d3473db5d4291bc057acd, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 95
+        m_Name: Layout
+        m_Depth: 0
+        Object: {fileID: 2651850131311024183, guid: b3a372650f6d3473db5d4291bc057acd, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 96
+        m_Name: tv-2
+        m_Depth: 0
+        Object: {fileID: -5909464893778249129, guid: c90c9a8bf1da64faab14a203aea964c5, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 97
+        m_Name: TvFrameMaterial
+        m_Depth: 0
+        Object: {fileID: -6422216760144128419, guid: c90c9a8bf1da64faab14a203aea964c5, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 98
+        m_Name: UI/Default
+        m_Depth: 0
+        Object: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 99
+        m_Name: NotoSansTC-Regular SDF Material
+        m_Depth: 0
+        Object: {fileID: -221830678918852854, guid: 2f71d687af6a4468d8c163b993bac0b0, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 100
+        m_Name: NotoSansTC-Regular SDF Atlas
+        m_Depth: 0
+        Object: {fileID: -8724193532218369566, guid: 2f71d687af6a4468d8c163b993bac0b0, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 101
+        m_Name: image_iii_image 1
+        m_Depth: 0
+        Object: {fileID: 2800000, guid: 67bda808bfc184e83978e4731f3b6afc, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 102
+        m_Name: TextMeshPro/Distance Field
+        m_Depth: 0
+        Object: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 103
+        m_Name: Sphere
+        m_Depth: 0
+        Object: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      - m_ID: 104
+        m_Name: CharacterAnimController
+        m_Depth: 0
+        Object: {fileID: 9100000, guid: 875a4fb199c2c4b6abeab79d96d68b91, type: 2}
+        Description: 
+        IsEnabled: 0
+        PrefabParts: []
+      IsEnabled: 1
