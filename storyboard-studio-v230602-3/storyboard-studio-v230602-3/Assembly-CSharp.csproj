@@ -1,0 +1,1665 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{B8553810-E27F-1EBC-32EB-BEC45500E0EF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2021_3_4;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;FBXSDK_RUNTIME;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.15</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2021.3.4f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_SL2_PersistentStoryTexNode.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_SubEmittersModule.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegPlayerImpIOSPipe.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentSprite.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCaptureImpIOSPipe.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentParticleSystem.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesOutputsWinMonoBin.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_SL2_PersistentStoryMaterialObject.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentRigidbody.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\ContextMenu\ContextItem.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfplayPlayerUI.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesInputsWinIL2CPPBin.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Importers\GltfImporter.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentButton_ButtonClickedEvent.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\RuntimeInitialization.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentScrollRect_ScrollRectEvent.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\KeepScreen.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesOutputsUnixIL2CPPBin.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesOutputsIOSPipe.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\TMPro_Battlehub_SL2_PersistentTMP_FontAsset.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\BytesSender.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\LocalizedDropdown.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentRect.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\UserPropertiesLoading\Scripts\UserPropertiesLoadingSample.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\VirtualizingTreeViewItem.cs" />
+    <Compile Include="Assets\eToile\ExampleShared\HelperScripts\SendEmail.cs" />
+    <Compile Include="Assets\eToile\ExampleShared\HelperScripts\GoToAssetStore.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_ColorOverLifetimeModule.cs" />
+    <Compile Include="Assets\eToile\OpenWavParser\Example\Scripts\2_WAVSave\SaveWavFile.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\NewSceneView.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_RTEditor_Battlehub_SL2_PersistentGameViewCamera.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentDetailPrototype.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\LoadModelFromStream\Scripts\LoadModelFromStreamSample.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentBoneWeight.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Graph\GraphPointerListener.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\AssetDownloader.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentPhysicMaterial.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\StoryboardResViewModel.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentTreePrototype.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Dialogs\RegisterExportWindow.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCommandImpUnixMonoBin.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesOutputsAndroidPipe.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_RTBuilder_Battlehub_SL2_PersistentMaterialPalette.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentSpriteRenderer.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Scripts\Effects\CameraTransitionEffectBase.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Editors\AniObjComponentEditor.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Socket\Connection.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\ContextMenu\ContextMenu.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_LimitVelocityOverLifetimeModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentTexture2D.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentKeyframe.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UniVRM10_Battlehub_SL2_PersistentVrm10Instance.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Dialogs\ExportVideoViewModel.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentBoxCollider.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Importers\FbxImporterAsync.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCaptureImpWinIL2CPPBin.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\PointCloudRenderer\BakedPointCloud.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_MinMaxCurve.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\CustomFBXExporter.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCommandImpLinuxIL2CPPBin.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\ChangeColorWithSound.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Scripts\Effects\DiamondTransitionEffect.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\StoryboardViewModel.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Graph\BezierCurveDrawer.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_RTEditor_Battlehub_SL2_PersistentRuntimeAnimation.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\ZipLoadCustomContextData.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentAnimator.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegCaptureAudioListener.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentNavigation.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_SceneManagement_Battlehub_SL2_PersistentScene.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\UIScaleOverride.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Scripts\Effects\AlphaFadeTransitionEffect.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Audios\WavUtility.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentGradient.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentFlare.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Node\Node.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Dialogs\ExportView.cs" />
+    <Compile Include="Assets\eToile\OpenWavParser\Example\Scripts\2_WAVSave\MicController.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Importers\ImportFileHandle.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_RTCommon_Battlehub_SL2_PersistentExposeToEditorUnityEvent.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentMaterial.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Animations\HintEffector.cs" />
+    <Compile Include="Assets\SerializableDictionary\Example\UserSerializableDictionaries.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\StoryEditorIndexGM.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Streaming\SceneSelectorViewModel.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Types.cs" />
+    <Compile Include="Assets\SerializableDictionary\SerializableDictionary.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentMeshCollider.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\ManageProjectCreater.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Utils\GraphicsSettingsUtils.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegPlayerImpWinMonoBin.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Streaming\RegisterSceneSelectorWindow.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\VRM_Battlehub_SL2_PersistentVRMHumanoidDescription.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_ExternalForcesModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentColorBlock.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ZipFileTextureMapper.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Audio_Battlehub_SL2_PersistentAudioMixerGroup.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentMaterial.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentRuntimeAnimatorController.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesInputsUnixIL2CPPBin.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentToggle_ToggleEvent.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MenusAndLayout\MenuFileOnOneStage.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\OriginalText.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentAudioClip.cs" />
+    <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\ExtensionFilter.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentMaskableGraphic_CullStateChangedEvent.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Scripts\TransitionEffectShaderPropertyIDs.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesInputsUnixMonoBin.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentParticleSystem_TextureSheetAnimationModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_RTEditor_Battlehub_SL2_PersistentRuntimeAnimationClip.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Line\LinePointerListener.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\RegisterNewSceneWindow.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentAnimationCurve.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentAudioSource.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegPlayerVideoTexture.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Storyboards\StoryboardScene.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Scripts\Effects\DiagonalTransitionEffect.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\LipSyncMapping.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Streaming\RegisterStreamingOutWindow.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentButton.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentToggleGroup.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesInputs.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\TypeMapCreator.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Storyboards\StoryTexNode.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentKeyframe.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_NoiseModule.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Singleton\ISingletonFMP.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Serializer\Serializer.cs" />
+    <Compile Include="Assets\TriLib\TriLibHDRP\Scripts\HDRPVirtualMaterial.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCommandImpBase.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegPlayerCommand.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentGradientColorKey.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentVector2.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\CharIkHandleScript.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Utility.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\AnimationEditorView.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCommandImpAndroid.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\BackButton.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\MergeAnimations\Scripts\MergeAnimationClipsMapper.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentHumanBone.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\MergeAnimations\Scripts\AnimationClipWithCurves.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCaptureImpWinMonoBin.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentParticleSystem_TriggerModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentBounds.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\TMPro_Battlehub_SL2_PersistentTMP_StyleSheet.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MenusAndLayout\StortEditorExtension.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegCaptureCommand.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentAnimator.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCaptureImpIOSMemory.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Socket\IOutput.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\StandardMaterialMapper.cs" />
+    <Compile Include="Assets\StoryBillBoardObject.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Example\TransitionEffectTester.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\StoryBoardAppGM.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MenusAndLayout\StoryboardLayout.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegCaptureAudio.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\TMPro_Battlehub_SL2_PersistentFontAssetCreationSettings.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Socket\SocketHandle.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\StoryExportViewModel.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Editors\MaterialTextureBtn.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_MainModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_SL2_PersistentStoryboardScene.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\OneAniEditPoint.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Animations\AnimationUtility.cs" />
+    <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\StandaloneFileBrowserWinRT.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesOutputsAndroidMemory.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentHumanLimit.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentImage.cs" />
+    <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\TriLib\IOAssetLoader.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCommandImpWinMonoBin.cs" />
+    <Compile Include="Assets\TriLib\TriLibUniversalRP\Scripts\Mappers\UniversalRPMaterialMapper.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentVerticalLayoutGroup.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Dialogs\RegisterExportHtmlWindow.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_RotationOverLifetimeModule.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Contexts\DataArrayCreationContext.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Node\NodeDraggablePanel.cs" />
+    <Compile Include="Assets\eToile\OpenWavParser\OpenWavParser.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_ProBuilderIntegration_Battlehub_SL2_PersistentPBMesh.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesInputsAndroidMemory.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Streaming\RegisterStreamingAudioWindow.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegPlayerImpWinLib.cs" />
+    <Compile Include="Assets\Battlehub\RTEditor_Data\Scripts\Editors\EditorsMapCreator.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegPlayerImpUnixMonoBin.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentBaseMeshEffect.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\SimpleDragAndDrop.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Editors\CameraCompentEditor.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_Burst.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\AnimatorOverrideAnimationClipMapper.cs" />
+    <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\TriLib\AssetLoaderFilePicker.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Video_Battlehub_SL2_PersistentVideoPlayer.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Animations\FullBodyIKJob.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\TMPro_Battlehub_SL2_PersistentTMP_ColorGradient.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_SizeBySpeedModule.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\RuntimeProcessUtils.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\AnimationEditorViewModel.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\TMPro_Battlehub_SL2_PersistentTMP_Asset.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentDropdown_DropdownEvent.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ByNameAnimatorOverrideAnimationClipMapper.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_TriggerModule.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Dialogs\ExportHtmlViewModel.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentMesh.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Editors\GameObjectEditorAdd.cs" />
+    <Compile Include="Assets\eToile\ExampleShared\PopUp\PopUp.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_RTCommon_Battlehub_SL2_PersistentExposeToEditor.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_ProBuilderIntegration_Battlehub_SL2_PersistentPBFace.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_SL2_PersistentStoryCharAnimObject.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Storyboards\OneSceneNodeTex2D.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentAnimationTriggers.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegPlayerAudio.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_ShapeModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentScrollbar_ScrollEvent.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\ObjectPositionHandle.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystemRenderer.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesInputsIOSPipe.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Line\UILineRenderer.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\UriLoadCustomContextData.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesOutputs.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCaptureImpWinLib.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\SimpleCustomAssetLoader\Scripts\SimpleCustomAssetLoader.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\StoryboardResView.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\UserPropertiesLoading\Scripts\SampleUserPropertiesMapper.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentMatrix4x4.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentFont.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Scripts\Effects\Diagonal45DegTransitionEffect.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\TriLibReaders.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_SizeOverLifetimeModule.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Singleton\SingletonFMP.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_EventSystems_Battlehub_SL2_PersistentBaseInputModule.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\StoryboardToolViewModel.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_MinMaxGradient.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MenusAndLayout\MenuStorybrd.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegBytesPlayerCommand.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegPlayerImpBase.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\Battlehub_RTEditor_Battlehub_SL2_PersistentRuntimeAnimationProperty.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegCaptureCamera.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Socket\Socket.cs" />
+    <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\TriLib\Mappers\FilePickerTextureMapper.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\SimpleAnimationPlayerAnimationClipMapper.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\StoryFolderViewModel.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentScrollbar.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\CheckFinished.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentHumanDescription.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Storyboards\StoryBoardNodeEditor.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentGraphicRaycaster.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegBytesCaptureCommand.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegPlayerImpAndroidMemory.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentDropdown_OptionData.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentShadow.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Scripts\ITransitionCameraEffect.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentLight.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Audios\SaveWav.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfplayCommand.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Streaming\StreamingAudioViewModel.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ByNameHumanoidAvatarMapper.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\LoadModelFromFile\Scripts\LoadModelFromFileSample.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_EventSystems_Battlehub_SL2_PersistentStandaloneInputModule.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Graph\NodeGraph.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\AssetViewer.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCaptureImpAndroidMemory.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\SetVideoTexture.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_VelocityOverLifetimeModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_RTTerrain_Battlehub_SL2_PersistentTerrainToolState.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Socket\SocketInput.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\LoadModelFromStream\Mappers\ExternalDataMapperSample.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCommandImpIOS.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\StoryExportView.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesInputsIOSMemory.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Playables\SimpleAnimationPlayer.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\RegisterStoryExportWindow.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Exporters\_FbxExport.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCommandImpWinIL2CPPBin.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegGetTexturePerFrameCommand.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_RTEditor_Battlehub_SL2_PersistentRuntimeAnimationProperty.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentSelectable.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentTreeInstance.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MonoBehaviours\StoryCharacter.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegPlayerUI.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\AvatarLoader\Scripts\AvatarLoader.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentMask.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_SL2_PersistentStoryCanAnimObject.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentLayerMask.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ZipFileExternalDataMapper.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentMaskableGraphic.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesInputsWinMonoBin.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegPlayerImpIOSBase.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentDropdown.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentGradient.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentLayoutElement.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCommandImpMacIL2CPPBin.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentSkeletonBone.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ByBonesRootBoneMapper.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_LightsModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_CollisionModule.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\LoadModelFromFilePicker\Scripts\LoadModelFromFilePickerSample.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\Listup.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentParticleSystem_CustomDataModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentColor32.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystemForceField.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentTerrainData.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\SwingRotate.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Serializer\SerializationData.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Streaming\StreamingOutViewModel.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MonoBehaviours\StoryMaterialObject.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\AssetDownloaderBehaviour.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentTerrainCollider.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\ContextMenu\ContextContainer.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\ShowProgress.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentAudioListener.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_TextureSheetAnimationModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentHorizontalLayoutGroup.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Animations\Effector.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Exporters\FbxExport.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Audios\AudioCapture.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_EventSystems_Battlehub_SL2_PersistentBaseRaycaster.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentLightBakingOutput.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentCapsuleCollider.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegPlayerImpAndroidBase.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegPlayerImpAndroidPipe.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\PointCloudRenderer\PointCloudRenderer.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentCollider.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\RegisterAnimationEditorWindow.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCaptureImpBase.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\RegisterStoryboardToolWindow.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MenusAndLayout\IndexPageScript.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesInputsAndroidPipe.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegWriteFromTexturesCommand.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\Battlehub_RTEditor_Battlehub_SL2_PersistentRuntimeAnimation.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegPlayerImpUnixIL2CPPBin.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentTexture3D.cs" />
+    <Compile Include="Assets\iiiStageEditor\Core\iiiStageEditorCore.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_EventSystems_Battlehub_SL2_PersistentPointerInputModule.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\ContextMenu\ContextMenuBuilder.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\SetDefaultCameraControl.cs" />
+    <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\StandaloneFileBrowserAndroid.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\NewSceneViewModel.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentMeshRenderer.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegPath.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\LoadExtraAnimations\Scripts\LoadExtraAnimationsSample.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MenusAndLayout\ToolsPanelOverride.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\StorySceneScript.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Audio_Battlehub_SL2_PersistentAudioMixer.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentSpriteState.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\BatchTexture.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentText.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentBehaviour.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentScrollRect.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Editors\ComponentUtil.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\TMPro_Battlehub_SL2_PersistentTMP_SpriteAsset.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_ProBuilderIntegration_Battlehub_SL2_PersistentPBAutoUnwrapSettings.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Importers\AudioImporterAsync.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentMesh.cs" />
+    <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\TriLib\Mappers\FilePickerExternalDataMapper.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\Common\Scripts\AbstractInputSystem.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\TypeModelCreator.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\StoryboardToolView.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentTerrainLayer.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\TMPro_Battlehub_SL2_PersistentVertexGradient.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_TrailModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\TMPro_Battlehub_SL2_PersistentTMP_Text.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentRenderTexture.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentParticleSystem_SubEmittersModule.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCaptureImpUnixMonoBin.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentSkybox.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\CharBodyIK.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesOutputsUnixMonoBin.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MonoBehaviours\StoryCharAnimObject.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentRenderer.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentGridLayoutGroup.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MenusAndLayout\FileSystemLayoutStrage.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_RTTerrain_Battlehub_SL2_PersistentTerrainBrushSource.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\iiiSerializableDictionaries.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Scripts\CameraTransitionEffectController.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfplayAudio.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Line\UIPrimitiveBase.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentLayoutGroup.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegFileManager.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\StoryboardView.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\AssetUnloader.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Storyboards\StoryCameraSwitch.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Importers\VideoImporterAsync.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\LoadModelFromURL\Scripts\LoadModelFromURLSample.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesOutputsWinIL2CPPBin.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UniVRM10_Battlehub_SL2_PersistentVrm10InstanceSpringBone.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentGraphic.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Animations\PoseAniEditor.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesOutputsWinLib.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\AniEditorItem.cs" />
+    <Compile Include="Assets\SerializableDictionary\Example\SerializableDictionaryExample.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegExecuteIL2CPPWin.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentMonoBehaviour.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Animations\LookAtEffector.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MenuLang.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\PointCloudRenderer\PointCloudData.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Exporters\ExportSceneWindow.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Scripts\Effects\VerticalLinesTransitionEffect.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_EventSystems_Battlehub_SL2_PersistentEventSystem.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UniVRM10_Battlehub_SL2_PersistentVRM10Object.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Storyboards\StoryboardToolSet.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\NewSceneTplSelector.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\SceneDragDropHandler.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentAudioClip.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegBytesCommand.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentTexture.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\TMPro_Battlehub_SL2_PersistentTMP_Text.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentOutline.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MonoBehaviours\StoryCanAnimObject.cs" />
+    <Compile Include="Assets\eToile\ExampleShared\HelperScripts\DragSensitivity.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentRectOffset.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\TextureLoader.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Storyboards\StoryNodeObject.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_InheritVelocityModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentTerrain.cs" />
+    <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\ItemWithStream.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentToggle.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCaptureImpAndroidPipe.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\Common\Scripts\AssetViewerBase.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Storyboards\OneSceneNode.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_ProBuilderIntegration_Battlehub_SL2_PersistentPBPolyShape.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_EventSystems_Battlehub_SL2_PersistentUIBehaviour.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\Battlehub_RTSL_Battlehub_SL2_PersistentRTSLInclude.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\AvatarLoader\Scripts\AvatarController.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Editors\CharComponentEditor.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Storyboards\TransitionObject.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesOutputsIOSMemory.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\GCHelper.cs" />
+    <Compile Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Scripts\GenericTransitionEffect.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\NewSceneTplItem.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MeshRendererInspectorEditor.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\TMPro_Battlehub_SL2_PersistentTextMeshProUGUI.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MenusAndLayout\LayoutDefinition.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\LoadModelFromStream\Mappers\TextureMapperSample.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\MenusAndLayout\StreamEditorLayout.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_EmissionModule.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\Socket\SocketOutput.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\BytesOutputTest.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\Common\Scripts\PasteManager.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Streaming\StreamingOutView.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\SetVideoTextureRawImage.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentTerrainData.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\AssetLoader.cs" />
+    <Compile Include="Assets\eToile\ExampleShared\HelperScripts\ExitApp.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Dialogs\ExportVideoView.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\NodeEditor\NodeEditor.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCaptureImpUnixIL2CPPBin.cs" />
+    <Compile Include="Assets\TriLib\TriLibHDRP\Scripts\Mappers\HDRPMaterialMapper.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Dialogs\ExportHtmlView.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\LegacyToHumanoidAnimationClipMapper.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentGradientAlphaKey.cs" />
+    <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\StandaloneFileBrowserIOS.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\FfmpegCommand.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Dialogs\ExportViewModel.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentParticleSystemForceField.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentCamera.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ByNameLipSyncMapper.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_ColorBySpeedModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentParticleSystem_ExternalForcesModule.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\RegisterStoryboardWindow.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_CustomDataModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentSkinnedMeshRenderer.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentMeshFilter.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Streaming\StreamingAudioView.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegCommandImpWinLib.cs" />
+    <Compile Include="Assets\RuntimeNodeEditor\Scripts\NodeEditor\SignalSystem.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentAvatar.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegBytesInputsWinLib.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\AssetLoaderZip.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentParticleSystem_CollisionModule.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegPlayerImpIOSMemory.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\MergeAnimations\Scripts\MergeAnimations.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentSphereCollider.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Dialogs\RegisterExportVideoWindow.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentCanvas.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentParticleSystem_EmissionModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentRectTransform.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\Common\Scripts\FixMaterials.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentTexture2D.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Storyboards\StoryBoardStudioGM.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_UI_Battlehub_SL2_PersistentHorizontalOrVerticalLayoutGroup.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\Battlehub_RTEditor_Battlehub_SL2_PersistentRuntimeAnimationClip.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentSprite.cs" />
+    <Compile Include="Assets\eToile\OpenWavParser\Example\Scripts\3_WAVRead\LoadWavFile.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\TriLibSettings.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\SetVideoSkybox.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Importers\VrmImporterAsync.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Windows\RegisterStoryboardResWindow.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\SimpleCustomAssetLoader\Scripts\SimpleCustomLoaderSample.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Sample\BytesInputTest.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_RotationBySpeedModule.cs" />
+    <Compile Include="Assets\TriLib\TriLibSamples\ListModelResources\Scripts\ListModelResourcesSample.cs" />
+    <Compile Include="Assets\Battlehub\RTImporter\Runtime\Importers\PngImporterAsync.cs" />
+    <Compile Include="Assets\FfmpegUnity\Scripts\Imp\FfmpegPlayerImpWinIL2CPPBin.cs" />
+    <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ByNameRootBoneMapper.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentAvatar.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UniGLTF_Battlehub_SL2_PersistentRuntimeGltfInstance.cs" />
+    <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\StandaloneFileBrowserWebGL.cs" />
+    <Compile Include="Assets\iiiStageEditor\Views\Streaming\SceneSelectorView.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentParticleSystem_ForceOverLifetimeModule.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\Scripts\PersistentClasses\UnityEngine_Battlehub_SL2_PersistentLineRenderer.cs" />
+    <Compile Include="Assets\Battlehub\RTSL_Data\CustomImplementation\UnityEngine_Battlehub_SL2_PersistentAnimationCurve.cs" />
+    <Compile Include="Assets\eToile\ExampleShared\HelperScripts\DragSnapper.cs" />
+    <Compile Include="Assets\iiiStageEditor\Scripts\Storyboards\StoryStartNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\FfmpegUnity\Plugins\Windows\swscale-6.dll" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTBuilder\Integration\Shaders\SelectionPicker.shader" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\RuntimeNodeEditor\Imported\Fonts\nokiafc22.txt" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTNavigation\Resources\RTNavigation.StringResources.en-US.xml" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTCommon\Resources\UnlitColorClip.shader" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\Dependencies\LibTessDotNet.dll" />
+    <None Include="Assets\FfmpegUnity\Plugins\Windows\libwinpthread-1.dll" />
+    <None Include="Assets\Battlehub\README.txt" />
+    <None Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Shaders\VerticalLinesTransitionEffect.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Resources\Shaders\Utility\InvertChannels.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Shaders\Resources\Grid.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\TriLibCore.dll" />
+    <None Include="Assets\TriLib\TriLibCore\Licenses\LibTessDotNet.txt" />
+    <None Include="Assets\TriLib\TriLibCore\Licenses\StandaloneFileBrowser.txt" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTBuilder\Integration\Shaders\NormalsPreview.shader" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTBuilder\Resources\RTBuilder.StringResources.en-US.xml" />
+    <None Include="Assets\FfmpegUnity\Plugins\Windows\avcodec-59.dll" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTBuilder\Integration\Shaders\FaceHighlight.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\Dependencies\IxMilia.ThreeMf.dll" />
+    <None Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Shaders\TransitionEffectUtilities.cginc" />
+    <None Include="Assets\FfmpegUnity\Plugins\Windows\avutil-57.dll" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_attribute.hlsl" />
+    <None Include="Assets\FfmpegUnity\Plugins\Windows\avfilter-8.dll" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_vertex.hlsl" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTCommon\Resources\UnlitColor.shader" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTBuilder\Integration\Shaders\VertexShader.shader" />
+    <None Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\PointCloudRenderer\Resources\PointCloud_GL.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\TriLibCore.Textures.dll" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_uv.hlsl" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\TriLibCore.Ply.dll" />
+    <None Include="Assets\VRMShaders\GLTF\IO\Resources\UniGLTF\NormalMapExporter.shader" />
+    <None Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\PointCloudRenderer\Resources\Common.cginc" />
+    <None Include="Assets\Battlehub\RTSL_Data\RTSLTypeModel.dll" />
+    <None Include="Assets\TriLib\TriLibCore\Licenses\SharpZipLib.txt" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Shaders\Resources\BoxSelectionShader.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTCommon\Resources\RenderTextureOverlay.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Resources\Shaders\Utility\InvertChannelData.shader" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_lighting_mtoon.hlsl" />
+    <None Include="Assets\TriLib\TriLibSamples\AvatarLoader\Models\ReadMe.txt" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTEditor\Prefabs\Legacy\Views\Resources\TemplateWindow.cs.txt" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTGizmos\Shaders\Resources\Handles.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Prefabs\Models\Materials\Shaders\DepthMaskColorBillboardShader.shader" />
+    <None Include="Assets\FfmpegUnity\README_EN.txt" />
+    <None Include="Assets\FfmpegUnity\Plugins\Windows\swresample-4.dll" />
+    <None Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Shaders\FadeMaskTransitionEffect.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTEditor\Prefabs\Resources\TemplateViewModel.cs.txt" />
+    <None Include="Assets\TriLib\TriLibCore\link.xml" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTBuilder\Integration\Shaders\LineBillboard.shader" />
+    <None Include="Assets\iiiStageEditor\Shaders\ZtestRay.shader" />
+    <None Include="Assets\FfmpegUnity\README_JP.txt" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTBuilder\Integration\Shaders\VertexPicker.shader" />
+    <None Include="Assets\Battlehub\RTEditorDemo\Content\Runtime\Utils\Dispatcher\Dispatcher Documentation.txt" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Resources\web-template\js\chunk-vendors.txt" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\Dependencies\Newtonsoft.Json\Newtonsoft.Json Portable\Newtonsoft.Json.xml" />
+    <None Include="Assets\TriLib\TriLibHDRP\Resources\Shaders\BuildHDRPMask.shader" />
+    <None Include="Assets\TriLib\TriLibSamples\MergeAnimations\Models\README.txt" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTEditor\Prefabs\Legacy\Views\Resources\RegisterTemplateWindow.cs.txt" />
+    <None Include="Assets\TriLib\TriLibCore\Licenses\NewtonSoftJson.txt" />
+    <None Include="Assets\TriLib\TriLibCore\Third-Party Notices.txt" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_forward_vertex.hlsl" />
+    <None Include="Assets\TriLib\TriLibCore\Resources\Shaders\Utility\ExtractChannelData.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\Dependencies\Newtonsoft.Json\Newtonsoft.Json AOT\Newtonsoft.Json.xml" />
+    <None Include="Assets\Resources\RTEditor.StringResources.zh-TW.xml" />
+    <None Include="Assets\Battlehub\RTEditor\ThirdParty\protobuf-net\protobuf-net.dll" />
+    <None Include="Assets\FfmpegUnity\Plugins\Windows\libffmpegDll.dll" />
+    <None Include="Assets\VRMShaders\GLTF\IO\Resources\UniGLTF\StandardMapExporter.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\Dependencies\Newtonsoft.Json\Newtonsoft.Json Editor\Newtonsoft.Json.xml" />
+    <None Include="Assets\FfmpegUnity\Resources\FfmpegUnity\Shaders\FlipShader.shader" />
+    <None Include="Assets\TriLib\TriLibCore\TriLibVersion.txt" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Prefabs\Models\Materials\Shaders\ArrowShader.shader" />
+    <None Include="Assets\Battlehub\RTEditor\ThirdParty\UnityWeld\UnityWeld.dll" />
+    <None Include="Assets\TriLib\TriLibCore\Licenses\NewtonSoftJsonForUnity.txt" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\TriLibCore.Fbx.dll" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTBuilder\Integration\Shaders\FacePicker.shader" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_forward_fragment.hlsl" />
+    <None Include="Assets\Battlehub\RTEditor\ThirdParty\protobuf-net\WSA\protobuf-net.dll" />
+    <None Include="Assets\TriLib\TriLibCore\Resources\Shaders\Utility\SwapChannelData.shader" />
+    <None Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Shaders\Diagonal45DegTransitionEffect.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Prefabs\Models\Materials\Shaders\DepthMaskColorShader.shader" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_alpha.hlsl" />
+    <None Include="Assets\Battlehub\RTEditorDemo\Content\Runtime\RTEditor\BundledObject\NewSurfaceShader.shader" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_input.hlsl" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTCommon\Resources\Billboard.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Shaders\Resources\LineBillboard.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTEditor\Prefabs\Resources\TemplateView.cs.txt" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_lighting_unity.hlsl" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Fonts\FontLicense!.txt" />
+    <None Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Shaders\DiagonalTransitionEffect.shader" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Prefabs\Models\Materials\Shaders\SSCircleShader.shader" />
+    <None Include="Assets\iiiStageEditor\Shaders\Hologram.shader" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTBuilder\Integration\Shaders\SmoothingPreview.shader" />
+    <None Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\PointCloudRenderer\Resources\Disk.cginc" />
+    <None Include="Assets\eToile\OpenWavParser\readme please.txt" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\Dependencies\Newtonsoft.Json\Newtonsoft.Json Portable\Newtonsoft.Json.dll" />
+    <None Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\PointCloudRenderer\Resources\README.txt" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Prefabs\Models\Materials\Shaders\AxisShader.shader" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\TriLibCore.Stl.dll" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTEditor\Prefabs\AnimationEditor\TimelineControl\Resources\TimelineGrid.shader" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_utility.hlsl" />
+    <None Include="Assets\FfmpegUnity\Plugins\Windows\winpthread_COPYING.txt" />
+    <None Include="Assets\Resources\web-template\css\app.txt" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTDeformer\Resources\RTDeformer.StringResources.en-US.xml" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TriLib\TriLibCore\Licenses\OpenSans.txt" />
+    <None Include="Assets\TriLib\TriLibCore\Licenses\PCX.txt" />
+    <None Include="Assets\TriLib\TriLibCore\Licenses\AndroidNativeFilePicker.txt" />
+    <None Include="Assets\TriLib\TriLibGltfDraco\Plugins\dracodec_unity.dll" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTEditor\Resources\RTEditor.StringResources.en-US.xml" />
+    <None Include="Assets\FfmpegUnity\Plugins\Windows\avdevice-59.dll" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTBuilder\Integration\Shaders\PointBillboard.shader" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\MeshEditor\Resources\FaceHighlight.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Shaders\Resources\VertexColorClipUsingClipPlane.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Prefabs\Models\Materials\Shaders\SSQuadShader.shader" />
+    <None Include="Assets\VRMShaders\GLTF\IO\Resources\UniGLTF\StandardMapImporter.shader" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\PointCloudRenderer\Resources\Point.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Licenses\IxMilia.ThreeMf.txt" />
+    <None Include="Assets\Battlehub\Third-Party Notices.txt" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Shaders\Resources\Shape.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\TriLibCore.ThreeMf.dll" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\TriLibCore.Gltf.Draco.dll" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\TriLibCore.HDRLoader.dll" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\Dependencies\StbImageSharp.dll" />
+    <None Include="Assets\TriLib\TriLibCore\Licenses\draco.txt" />
+    <None Include="Assets\VRMShaders\GLTF\UniUnlit\Resources\UniGLTF\UniUnlit.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Prefabs\Models\Materials\Shaders\QuadShader.shader" />
+    <None Include="Assets\Battlehub\RTSL_Data\link.xml" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\TriLibCore.Gltf.dll" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTCommon\Resources\Point.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTCommon\Resources\LineBillboard.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTEditor\Prefabs\AnimationEditor\TimelineControl\Resources\UnlitTextureInstanced.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\Tools\ObjectWireframe\Resources\LineBillboard.shader" />
+    <None Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Shaders\AlphaFadeTransitionEffect.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\UIControls\DockPanels\Shaders\DepthMask.shader" />
+    <None Include="Assets\FMPUtils\Utilities\Visuals\CameraTransition\Shaders\DiamondTransitionEffect.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\TriLibCore.Dae.dll" />
+    <None Include="Assets\TriLib\TriLibCore\Plugins\TriLibCore.Obj.dll" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Outline\Resources\UnityOutline.cginc" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTTerrain\Resources\RTTerrain.StringResources.en-US.xml" />
+    <None Include="Assets\TriLib\TriLibCore\TriLibReleaseNotes.txt" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_normal.hlsl" />
+    <None Include="Assets\TriLib\TriLibCore\Resources\Shaders\Utility\SpecularDiffuseToAlbedo.shader" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTNavigation\Resources\UnlitColor.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTCommon\Resources\SceenSpaceDecal.shader" />
+    <None Include="Assets\eToile\ExampleShared\readme.txt" />
+    <None Include="Assets\TriLib\TriLibCore\Resources\Shaders\Utility\BuildMetallicTexture.shader" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Resources\Shaders\StandardAlpha.shader" />
+    <None Include="Assets\Resources\exportexepack.txt" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTTerrain\Prefabs\Materials\TerrainHandleShader.shader" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTBuilder\Integration\Shaders\EdgePicker.shader" />
+    <None Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\PointCloudRenderer\Resources\Disk.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTEditor\Prefabs\Resources\RegisterTemplateWindow.cs.txt" />
+    <None Include="Assets\Battlehub\RTEditor\ThirdParty\ICSharpCode.SharpZipLib.dll" />
+    <None Include="Assets\Resources\web-template\js\app.txt" />
+    <None Include="Assets\TriLib\TriLibCore\Resources\Shaders\Utility\ApplyTransparency.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Shaders\Resources\RawImage.shader" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Outline\Resources\UnityOutline.shader" />
+    <None Include="Assets\Battlehub\RTExtensions\Content\Runtime\RTBuilder\Resources\Materials\PBTexturePreview.shader" />
+    <None Include="Assets\TriLib\TriLibCore\Resources\Shaders\Utility\FixNormalMap.shader" />
+    <None Include="Assets\FfmpegUnity\Plugins\Windows\avformat-59.dll" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Shaders\Resources\LineBillboardClip.shader" />
+    <None Include="Assets\Battlehub\RTEditor\Content\Runtime\RTHandles\Shaders\Resources\PointBillboard.shader" />
+    <None Include="Assets\Battlehub\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_define.hlsl" />
+    <None Include="Assets\TriLib\TriLibCore\KnownIssues.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="TriLibCore.Textures">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\TriLibCore.Textures.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Battlehub\RTEditor\ThirdParty\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="TriLibCore">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\TriLibCore.dll</HintPath>
+    </Reference>
+    <Reference Include="IxMilia.ThreeMf">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\Dependencies\IxMilia.ThreeMf.dll</HintPath>
+    </Reference>
+    <Reference Include="TriLibCore.HDRLoader">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\TriLibCore.HDRLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="StbImageSharp">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\Dependencies\StbImageSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="TriLibCore.Gltf">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\TriLibCore.Gltf.dll</HintPath>
+    </Reference>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>Assets\Battlehub\RTEditor\ThirdParty\StandaloneFileBrowser\Plugins\Ookii.Dialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="RTSLTypeModel">
+      <HintPath>Assets\Battlehub\RTSL_Data\RTSLTypeModel.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets\Battlehub\RTEditor\ThirdParty\protobuf-net\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="TriLibCore.ThreeMf">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\TriLibCore.ThreeMf.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="TriLibCore.Obj">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\TriLibCore.Obj.dll</HintPath>
+    </Reference>
+    <Reference Include="TriLibCore.Stl">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\TriLibCore.Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="NLayer">
+      <HintPath>Assets\Plugins\NLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="TriLibCore.Fbx">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\TriLibCore.Fbx.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <HintPath>Assets\Battlehub\RTEditor\ThirdParty\StandaloneFileBrowser\Plugins\System.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>Assets\Battlehub\RTEditor\ThirdParty\StandaloneFileBrowser\Plugins\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="TriLibCore.Dae">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\TriLibCore.Dae.dll</HintPath>
+    </Reference>
+    <Reference Include="LibTessDotNet">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\Dependencies\LibTessDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="TriLibCore.Ply">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\TriLibCore.Ply.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="TriLibCore.Gltf.Draco">
+      <HintPath>Assets\TriLib\TriLibCore\Plugins\TriLibCore.Gltf.Draco.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityWeld">
+      <HintPath>Assets\Battlehub\RTEditor\ThirdParty\UnityWeld\UnityWeld.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Fbx">
+      <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="glTFastFakeSchema">
+      <HintPath>Library\ScriptAssemblies\glTFastFakeSchema.dll</HintPath>
+    </Reference>
+    <Reference Include="glTFast">
+      <HintPath>Library\ScriptAssemblies\glTFast.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="glTFast.dots">
+      <HintPath>Library\ScriptAssemblies\glTFast.dots.dll</HintPath>
+    </Reference>
+    <Reference Include="glTFastEditor">
+      <HintPath>Library\ScriptAssemblies\glTFastEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Fbx.Editor">
+      <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="glTFastSchema">
+      <HintPath>Library\ScriptAssemblies\glTFastSchema.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{00AF64E9-FA82-71EE-0EF4-61121802F70A}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniHumanoid.csproj">
+      <Project>{DFA5D421-9E24-A186-2521-7FAC259D07EF}</Project>
+      <Name>UniHumanoid</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRMShaders.GLTF.IO.Runtime.csproj">
+      <Project>{8D290F80-18EB-3331-9D15-6495E81B4188}</Project>
+      <Name>VRMShaders.GLTF.IO.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="HSVPicker.csproj">
+      <Project>{80B61957-C45B-C58C-F04D-F093641D9226}</Project>
+      <Name>HSVPicker</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniGLTF.csproj">
+      <Project>{C936F806-6452-BD59-19AA-AD0319CBE8B0}</Project>
+      <Name>UniGLTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="Battlehub.RTExtensions.Editor.csproj">
+      <Project>{E12E1944-55F5-0527-204F-43E9F3E2D199}</Project>
+      <Name>Battlehub.RTExtensions.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Battlehub.RTExtensions.csproj">
+      <Project>{E0AFFE30-251E-1805-CD29-AE2AB3E18896}</Project>
+      <Name>Battlehub.RTExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRM.csproj">
+      <Project>{835551D8-E63F-70BF-8588-8BD1914E0131}</Project>
+      <Name>VRM</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{C419EB1D-59CF-CF42-877B-34252A90D97E}</Project>
+      <Name>NavMeshComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{4D496F52-5377-9B5C-A9B1-68FEECB41886}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GLTFSerialization.csproj">
+      <Project>{9FC75772-2389-C8F4-D399-7D0BA9D4D3F5}</Project>
+      <Name>GLTFSerialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="Battlehub.RTEditor.Editor.csproj">
+      <Project>{0066EAEE-7269-3E2C-4743-1713F418A211}</Project>
+      <Name>Battlehub.RTEditor.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRM10.csproj">
+      <Project>{577E7D86-2BBC-768C-411F-621085F46500}</Project>
+      <Name>VRM10</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityGLTFScripts.csproj">
+      <Project>{785981F3-F823-64F4-9E08-21FC293DC82A}</Project>
+      <Name>UnityGLTFScripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="Battlehub.RTEditor.csproj">
+      <Project>{8370AB47-01C4-E7E3-3B4A-665660778655}</Project>
+      <Name>Battlehub.RTEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="StandaloneFileBrowser.csproj">
+      <Project>{2F2BF10D-573B-A070-5BEF-B33D5B35BC54}</Project>
+      <Name>StandaloneFileBrowser</Name>
+    </ProjectReference>
+    <ProjectReference Include="Battlehub.RTEditor.Demo.csproj">
+      <Project>{B627DE24-3BC1-E0B1-C9A0-6B2C50A95EEB}</Project>
+      <Name>Battlehub.RTEditor.Demo</Name>
+    </ProjectReference>
+    <ProjectReference Include="UIShapesKit.csproj">
+      <Project>{51A3E8CA-C607-B6C2-10CC-06CECC312AEC}</Project>
+      <Name>UIShapesKit</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityGLTFEditor.csproj">
+      <Project>{9AB9C74E-D4F3-04B6-087E-2E11763C2BB0}</Project>
+      <Name>UnityGLTFEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UIShapesKit.Editor.csproj">
+      <Project>{D9EE4875-0168-4C7B-517C-6E9E0896DBD8}</Project>
+      <Name>UIShapesKit.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
